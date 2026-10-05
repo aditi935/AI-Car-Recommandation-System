@@ -1,0 +1,13 @@
+flask
+flask-cors
+openai
+python-dotenv
+faiss-cpu
+numpy
+pandas
+tiktoken
+pypdf
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.8

@@ -1,0 +1,1902 @@
+[
+  {
+    "id": 0,
+    "text": "Car Name: Toyota Model 1\nBrand: Toyota\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Touchscreen Display, Cruise Control, Wireless Charging\nUsage: city\nPrice: 17L\nPhone: 9058179921\nLink: https://example.com/toyotamodel1",
+    "metadata": {
+      "name": "Toyota Model 1",
+      "brand": "Toyota",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "17L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Touchscreen Display, Cruise Control, Wireless Charging",
+      "usage": "city",
+      "call": "9058179921",
+      "link": "https://example.com/toyotamodel1"
+    }
+  },
+  {
+    "id": 1,
+    "text": "Car Name: Hyundai Model 2\nBrand: Hyundai\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Sunroof, Music System\nUsage: highway\nPrice: 25L\nPhone: 9606783781\nLink: https://example.com/hyundaimodel2",
+    "metadata": {
+      "name": "Hyundai Model 2",
+      "brand": "Hyundai",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "25L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Sunroof, Music System",
+      "usage": "highway",
+      "call": "9606783781",
+      "link": "https://example.com/hyundaimodel2"
+    }
+  },
+  {
+    "id": 2,
+    "text": "Car Name: MG Model 3\nBrand: MG\nBody Type: MUV\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: 10-15 kmpl\nAirbags: 2\nFeatures: Hill Hold Control, Ventilated Seats, Sunroof\nUsage: city\nPrice: 17L\nPhone: 9057337635\nLink: https://example.com/mgmodel3",
+    "metadata": {
+      "name": "MG Model 3",
+      "brand": "MG",
+      "body_type": "MUV",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "17L",
+      "seats": "7 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "2",
+      "features": "Hill Hold Control, Ventilated Seats, Sunroof",
+      "usage": "city",
+      "call": "9057337635",
+      "link": "https://example.com/mgmodel3"
+    }
+  },
+  {
+    "id": 3,
+    "text": "Car Name: MG Model 4\nBrand: MG\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Ventilated Seats, Central Locking, Sunroof\nUsage: family\nPrice: 24L\nPhone: 9536914579\nLink: https://example.com/mgmodel4",
+    "metadata": {
+      "name": "MG Model 4",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Ventilated Seats, Central Locking, Sunroof",
+      "usage": "family",
+      "call": "9536914579",
+      "link": "https://example.com/mgmodel4"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Car Name: Tata Model 5\nBrand: Tata\nBody Type: MUV\nFuel Type: Hybrid\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Music System, Wireless Charging, Touchscreen Display\nUsage: off-road\nPrice: 21L\nPhone: 9561924979\nLink: https://example.com/tatamodel5",
+    "metadata": {
+      "name": "Tata Model 5",
+      "brand": "Tata",
+      "body_type": "MUV",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "price": "21L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Music System, Wireless Charging, Touchscreen Display",
+      "usage": "off-road",
+      "call": "9561924979",
+      "link": "https://example.com/tatamodel5"
+    }
+  },
+  {
+    "id": 5,
+    "text": "Car Name: Honda Model 6\nBrand: Honda\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 4\nFeatures: Cruise Control, Ventilated Seats, Wireless Charging\nUsage: off-road\nPrice: 24L\nPhone: 9392190145\nLink: https://example.com/hondamodel6",
+    "metadata": {
+      "name": "Honda Model 6",
+      "brand": "Honda",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "4",
+      "features": "Cruise Control, Ventilated Seats, Wireless Charging",
+      "usage": "off-road",
+      "call": "9392190145",
+      "link": "https://example.com/hondamodel6"
+    }
+  },
+  {
+    "id": 6,
+    "text": "Car Name: Kia Model 7\nBrand: Kia\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Central Locking, Cruise Control, Rear AC Vents\nUsage: city\nPrice: 13L\nPhone: 9225775667\nLink: https://example.com/kiamodel7",
+    "metadata": {
+      "name": "Kia Model 7",
+      "brand": "Kia",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "13L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Central Locking, Cruise Control, Rear AC Vents",
+      "usage": "city",
+      "call": "9225775667",
+      "link": "https://example.com/kiamodel7"
+    }
+  },
+  {
+    "id": 7,
+    "text": "Car Name: Hyundai Model 8\nBrand: Hyundai\nBody Type: SUV\nFuel Type: Electric\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Wireless Charging, Touchscreen Display, Hill Hold Control\nUsage: highway\nPrice: 11L\nPhone: 9155255216\nLink: https://example.com/hyundaimodel8",
+    "metadata": {
+      "name": "Hyundai Model 8",
+      "brand": "Hyundai",
+      "body_type": "SUV",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "price": "11L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Wireless Charging, Touchscreen Display, Hill Hold Control",
+      "usage": "highway",
+      "call": "9155255216",
+      "link": "https://example.com/hyundaimodel8"
+    }
+  },
+  {
+    "id": 8,
+    "text": "Car Name: Hyundai Model 9\nBrand: Hyundai\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Wireless Charging, Rear AC Vents, Touchscreen Display\nUsage: off-road\nPrice: 29L\nPhone: 9527745161\nLink: https://example.com/hyundaimodel9",
+    "metadata": {
+      "name": "Hyundai Model 9",
+      "brand": "Hyundai",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "29L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Wireless Charging, Rear AC Vents, Touchscreen Display",
+      "usage": "off-road",
+      "call": "9527745161",
+      "link": "https://example.com/hyundaimodel9"
+    }
+  },
+  {
+    "id": 9,
+    "text": "Car Name: Maruti Model 10\nBrand: Maruti\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Alloy Wheels, Wireless Charging, Music System\nUsage: off-road\nPrice: 17L\nPhone: 9860269634\nLink: https://example.com/marutimodel10",
+    "metadata": {
+      "name": "Maruti Model 10",
+      "brand": "Maruti",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "17L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Alloy Wheels, Wireless Charging, Music System",
+      "usage": "off-road",
+      "call": "9860269634",
+      "link": "https://example.com/marutimodel10"
+    }
+  },
+  {
+    "id": 10,
+    "text": "Car Name: Toyota Model 11\nBrand: Toyota\nBody Type: Sedan\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Hill Hold Control, Cruise Control\nUsage: family\nPrice: 21L\nPhone: 9866002137\nLink: https://example.com/toyotamodel11",
+    "metadata": {
+      "name": "Toyota Model 11",
+      "brand": "Toyota",
+      "body_type": "Sedan",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "21L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Hill Hold Control, Cruise Control",
+      "usage": "family",
+      "call": "9866002137",
+      "link": "https://example.com/toyotamodel11"
+    }
+  },
+  {
+    "id": 11,
+    "text": "Car Name: Toyota Model 12\nBrand: Toyota\nBody Type: Hatchback\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Reverse Camera, Hill Hold Control, Rear AC Vents\nUsage: highway\nPrice: 29L\nPhone: 9596062854\nLink: https://example.com/toyotamodel12",
+    "metadata": {
+      "name": "Toyota Model 12",
+      "brand": "Toyota",
+      "body_type": "Hatchback",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "29L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Reverse Camera, Hill Hold Control, Rear AC Vents",
+      "usage": "highway",
+      "call": "9596062854",
+      "link": "https://example.com/toyotamodel12"
+    }
+  },
+  {
+    "id": 12,
+    "text": "Car Name: Honda Model 13\nBrand: Honda\nBody Type: Sedan\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 4\nFeatures: Reverse Camera, Ventilated Seats, Rear AC Vents\nUsage: off-road\nPrice: 24L\nPhone: 9780636317\nLink: https://example.com/hondamodel13",
+    "metadata": {
+      "name": "Honda Model 13",
+      "brand": "Honda",
+      "body_type": "Sedan",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "24L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "4",
+      "features": "Reverse Camera, Ventilated Seats, Rear AC Vents",
+      "usage": "off-road",
+      "call": "9780636317",
+      "link": "https://example.com/hondamodel13"
+    }
+  },
+  {
+    "id": 13,
+    "text": "Car Name: Mahindra Model 14\nBrand: Mahindra\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Music System, Central Locking, Sunroof\nUsage: family\nPrice: 27L\nPhone: 9489583222\nLink: https://example.com/mahindramodel14",
+    "metadata": {
+      "name": "Mahindra Model 14",
+      "brand": "Mahindra",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "27L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Music System, Central Locking, Sunroof",
+      "usage": "family",
+      "call": "9489583222",
+      "link": "https://example.com/mahindramodel14"
+    }
+  },
+  {
+    "id": 14,
+    "text": "Car Name: Kia Model 15\nBrand: Kia\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Upto 10 kmpl\nAirbags: 5\nFeatures: Central Locking, Hill Hold Control, Touchscreen Display\nUsage: highway\nPrice: 16L\nPhone: 9246437819\nLink: https://example.com/kiamodel15",
+    "metadata": {
+      "name": "Kia Model 15",
+      "brand": "Kia",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "16L",
+      "seats": "8 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "5",
+      "features": "Central Locking, Hill Hold Control, Touchscreen Display",
+      "usage": "highway",
+      "call": "9246437819",
+      "link": "https://example.com/kiamodel15"
+    }
+  },
+  {
+    "id": 15,
+    "text": "Car Name: Honda Model 16\nBrand: Honda\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Reverse Camera, Touchscreen Display, Ventilated Seats\nUsage: city\nPrice: 13L\nPhone: 9456573596\nLink: https://example.com/hondamodel16",
+    "metadata": {
+      "name": "Honda Model 16",
+      "brand": "Honda",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "13L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Reverse Camera, Touchscreen Display, Ventilated Seats",
+      "usage": "city",
+      "call": "9456573596",
+      "link": "https://example.com/hondamodel16"
+    }
+  },
+  {
+    "id": 16,
+    "text": "Car Name: Hyundai Model 17\nBrand: Hyundai\nBody Type: MUV\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 4\nFeatures: Alloy Wheels, Cruise Control, Central Locking\nUsage: city\nPrice: 16L\nPhone: 9474398815\nLink: https://example.com/hyundaimodel17",
+    "metadata": {
+      "name": "Hyundai Model 17",
+      "brand": "Hyundai",
+      "body_type": "MUV",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "16L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "4",
+      "features": "Alloy Wheels, Cruise Control, Central Locking",
+      "usage": "city",
+      "call": "9474398815",
+      "link": "https://example.com/hyundaimodel17"
+    }
+  },
+  {
+    "id": 17,
+    "text": "Car Name: Honda Model 18\nBrand: Honda\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: 15-20 kmpl\nAirbags: 5\nFeatures: Alloy Wheels, Reverse Camera, Touchscreen Display\nUsage: city\nPrice: 14L\nPhone: 9622933564\nLink: https://example.com/hondamodel18",
+    "metadata": {
+      "name": "Honda Model 18",
+      "brand": "Honda",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "price": "14L",
+      "seats": "7 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "5",
+      "features": "Alloy Wheels, Reverse Camera, Touchscreen Display",
+      "usage": "city",
+      "call": "9622933564",
+      "link": "https://example.com/hondamodel18"
+    }
+  },
+  {
+    "id": 18,
+    "text": "Car Name: Mahindra Model 19\nBrand: Mahindra\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 7\nFeatures: Ventilated Seats, Music System, Cruise Control\nUsage: city\nPrice: 11L\nPhone: 9549612683\nLink: https://example.com/mahindramodel19",
+    "metadata": {
+      "name": "Mahindra Model 19",
+      "brand": "Mahindra",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "11L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "7",
+      "features": "Ventilated Seats, Music System, Cruise Control",
+      "usage": "city",
+      "call": "9549612683",
+      "link": "https://example.com/mahindramodel19"
+    }
+  },
+  {
+    "id": 19,
+    "text": "Car Name: Maruti Model 20\nBrand: Maruti\nBody Type: SUV\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 6\nFeatures: Cruise Control, Sunroof, Reverse Camera\nUsage: highway\nPrice: 22L\nPhone: 9486288717\nLink: https://example.com/marutimodel20",
+    "metadata": {
+      "name": "Maruti Model 20",
+      "brand": "Maruti",
+      "body_type": "SUV",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "22L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "6",
+      "features": "Cruise Control, Sunroof, Reverse Camera",
+      "usage": "highway",
+      "call": "9486288717",
+      "link": "https://example.com/marutimodel20"
+    }
+  },
+  {
+    "id": 20,
+    "text": "Car Name: Tata Model 21\nBrand: Tata\nBody Type: MUV\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Upto 10 kmpl\nAirbags: 2\nFeatures: Rear AC Vents, Touchscreen Display, Reverse Camera\nUsage: city\nPrice: 11L\nPhone: 9538764614\nLink: https://example.com/tatamodel21",
+    "metadata": {
+      "name": "Tata Model 21",
+      "brand": "Tata",
+      "body_type": "MUV",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "11L",
+      "seats": "8 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "2",
+      "features": "Rear AC Vents, Touchscreen Display, Reverse Camera",
+      "usage": "city",
+      "call": "9538764614",
+      "link": "https://example.com/tatamodel21"
+    }
+  },
+  {
+    "id": 21,
+    "text": "Car Name: Tata Model 22\nBrand: Tata\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: 15-20 kmpl\nAirbags: 5\nFeatures: Reverse Camera, Sunroof, Central Locking\nUsage: highway\nPrice: 16L\nPhone: 9920295868\nLink: https://example.com/tatamodel22",
+    "metadata": {
+      "name": "Tata Model 22",
+      "brand": "Tata",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "clutchless manual",
+      "price": "16L",
+      "seats": "6 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "5",
+      "features": "Reverse Camera, Sunroof, Central Locking",
+      "usage": "highway",
+      "call": "9920295868",
+      "link": "https://example.com/tatamodel22"
+    }
+  },
+  {
+    "id": 22,
+    "text": "Car Name: Tata Model 23\nBrand: Tata\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 5\nFeatures: Hill Hold Control, Rear AC Vents, Alloy Wheels\nUsage: city\nPrice: 18L\nPhone: 9588972527\nLink: https://example.com/tatamodel23",
+    "metadata": {
+      "name": "Tata Model 23",
+      "brand": "Tata",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "18L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "5",
+      "features": "Hill Hold Control, Rear AC Vents, Alloy Wheels",
+      "usage": "city",
+      "call": "9588972527",
+      "link": "https://example.com/tatamodel23"
+    }
+  },
+  {
+    "id": 23,
+    "text": "Car Name: Toyota Model 24\nBrand: Toyota\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: 10-15 kmpl\nAirbags: 2\nFeatures: Ventilated Seats, Central Locking, Wireless Charging\nUsage: family\nPrice: 19L\nPhone: 9659429417\nLink: https://example.com/toyotamodel24",
+    "metadata": {
+      "name": "Toyota Model 24",
+      "brand": "Toyota",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "19L",
+      "seats": "7 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "2",
+      "features": "Ventilated Seats, Central Locking, Wireless Charging",
+      "usage": "family",
+      "call": "9659429417",
+      "link": "https://example.com/toyotamodel24"
+    }
+  },
+  {
+    "id": 24,
+    "text": "Car Name: Kia Model 25\nBrand: Kia\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 2\nFeatures: Sunroof, Alloy Wheels, Wireless Charging\nUsage: city\nPrice: 23L\nPhone: 9746129126\nLink: https://example.com/kiamodel25",
+    "metadata": {
+      "name": "Kia Model 25",
+      "brand": "Kia",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "23L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "2",
+      "features": "Sunroof, Alloy Wheels, Wireless Charging",
+      "usage": "city",
+      "call": "9746129126",
+      "link": "https://example.com/kiamodel25"
+    }
+  },
+  {
+    "id": 25,
+    "text": "Car Name: Mahindra Model 26\nBrand: Mahindra\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Alloy Wheels, Sunroof, Cruise Control\nUsage: off-road\nPrice: 10L\nPhone: 9289377146\nLink: https://example.com/mahindramodel26",
+    "metadata": {
+      "name": "Mahindra Model 26",
+      "brand": "Mahindra",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "10L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Alloy Wheels, Sunroof, Cruise Control",
+      "usage": "off-road",
+      "call": "9289377146",
+      "link": "https://example.com/mahindramodel26"
+    }
+  },
+  {
+    "id": 26,
+    "text": "Car Name: Kia Model 27\nBrand: Kia\nBody Type: SUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 7\nFeatures: Alloy Wheels, Reverse Camera, Touchscreen Display\nUsage: city\nPrice: 23L\nPhone: 9618716345\nLink: https://example.com/kiamodel27",
+    "metadata": {
+      "name": "Kia Model 27",
+      "brand": "Kia",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "23L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "7",
+      "features": "Alloy Wheels, Reverse Camera, Touchscreen Display",
+      "usage": "city",
+      "call": "9618716345",
+      "link": "https://example.com/kiamodel27"
+    }
+  },
+  {
+    "id": 27,
+    "text": "Car Name: MG Model 28\nBrand: MG\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Ventilated Seats, Reverse Camera, Hill Hold Control\nUsage: highway\nPrice: 8L\nPhone: 9558242878\nLink: https://example.com/mgmodel28",
+    "metadata": {
+      "name": "MG Model 28",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "8L",
+      "seats": "8 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Ventilated Seats, Reverse Camera, Hill Hold Control",
+      "usage": "highway",
+      "call": "9558242878",
+      "link": "https://example.com/mgmodel28"
+    }
+  },
+  {
+    "id": 28,
+    "text": "Car Name: Tata Model 29\nBrand: Tata\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 5\nFeatures: Ventilated Seats, Cruise Control, Music System\nUsage: off-road\nPrice: 29L\nPhone: 9391397022\nLink: https://example.com/tatamodel29",
+    "metadata": {
+      "name": "Tata Model 29",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "29L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "5",
+      "features": "Ventilated Seats, Cruise Control, Music System",
+      "usage": "off-road",
+      "call": "9391397022",
+      "link": "https://example.com/tatamodel29"
+    }
+  },
+  {
+    "id": 29,
+    "text": "Car Name: Maruti Model 30\nBrand: Maruti\nBody Type: MUV\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Alloy Wheels, Hill Hold Control, Reverse Camera\nUsage: city\nPrice: 28L\nPhone: 9133528788\nLink: https://example.com/marutimodel30",
+    "metadata": {
+      "name": "Maruti Model 30",
+      "brand": "Maruti",
+      "body_type": "MUV",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "28L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Alloy Wheels, Hill Hold Control, Reverse Camera",
+      "usage": "city",
+      "call": "9133528788",
+      "link": "https://example.com/marutimodel30"
+    }
+  },
+  {
+    "id": 30,
+    "text": "Car Name: Hyundai Model 31\nBrand: Hyundai\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: 10-15 kmpl\nAirbags: 5\nFeatures: Music System, Cruise Control, Ventilated Seats\nUsage: family\nPrice: 28L\nPhone: 9307821456\nLink: https://example.com/hyundaimodel31",
+    "metadata": {
+      "name": "Hyundai Model 31",
+      "brand": "Hyundai",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "28L",
+      "seats": "7 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "5",
+      "features": "Music System, Cruise Control, Ventilated Seats",
+      "usage": "family",
+      "call": "9307821456",
+      "link": "https://example.com/hyundaimodel31"
+    }
+  },
+  {
+    "id": 31,
+    "text": "Car Name: Mahindra Model 32\nBrand: Mahindra\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Ventilated Seats, Rear AC Vents, Cruise Control\nUsage: city\nPrice: 13L\nPhone: 9052410762\nLink: https://example.com/mahindramodel32",
+    "metadata": {
+      "name": "Mahindra Model 32",
+      "brand": "Mahindra",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "13L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Ventilated Seats, Rear AC Vents, Cruise Control",
+      "usage": "city",
+      "call": "9052410762",
+      "link": "https://example.com/mahindramodel32"
+    }
+  },
+  {
+    "id": 32,
+    "text": "Car Name: Tata Model 33\nBrand: Tata\nBody Type: SUV\nFuel Type: Hybrid\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Wireless Charging, Music System, Reverse Camera\nUsage: city\nPrice: 14L\nPhone: 9445511059\nLink: https://example.com/tatamodel33",
+    "metadata": {
+      "name": "Tata Model 33",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "price": "14L",
+      "seats": "7 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Wireless Charging, Music System, Reverse Camera",
+      "usage": "city",
+      "call": "9445511059",
+      "link": "https://example.com/tatamodel33"
+    }
+  },
+  {
+    "id": 33,
+    "text": "Car Name: Mahindra Model 34\nBrand: Mahindra\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Touchscreen Display, Sunroof, Wireless Charging\nUsage: highway\nPrice: 26L\nPhone: 9824081709\nLink: https://example.com/mahindramodel34",
+    "metadata": {
+      "name": "Mahindra Model 34",
+      "brand": "Mahindra",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "26L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Touchscreen Display, Sunroof, Wireless Charging",
+      "usage": "highway",
+      "call": "9824081709",
+      "link": "https://example.com/mahindramodel34"
+    }
+  },
+  {
+    "id": 34,
+    "text": "Car Name: Toyota Model 35\nBrand: Toyota\nBody Type: SUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Reverse Camera, Ventilated Seats, Cruise Control\nUsage: highway\nPrice: 28L\nPhone: 9051896841\nLink: https://example.com/toyotamodel35",
+    "metadata": {
+      "name": "Toyota Model 35",
+      "brand": "Toyota",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "28L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Reverse Camera, Ventilated Seats, Cruise Control",
+      "usage": "highway",
+      "call": "9051896841",
+      "link": "https://example.com/toyotamodel35"
+    }
+  },
+  {
+    "id": 35,
+    "text": "Car Name: MG Model 36\nBrand: MG\nBody Type: MUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 8\nFeatures: Wireless Charging, Ventilated Seats, Alloy Wheels\nUsage: highway\nPrice: 14L\nPhone: 9595647137\nLink: https://example.com/mgmodel36",
+    "metadata": {
+      "name": "MG Model 36",
+      "brand": "MG",
+      "body_type": "MUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "14L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "8",
+      "features": "Wireless Charging, Ventilated Seats, Alloy Wheels",
+      "usage": "highway",
+      "call": "9595647137",
+      "link": "https://example.com/mgmodel36"
+    }
+  },
+  {
+    "id": 36,
+    "text": "Car Name: Tata Model 37\nBrand: Tata\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 6\nFeatures: Cruise Control, Rear AC Vents, Reverse Camera\nUsage: family\nPrice: 12L\nPhone: 9717791008\nLink: https://example.com/tatamodel37",
+    "metadata": {
+      "name": "Tata Model 37",
+      "brand": "Tata",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "12L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "6",
+      "features": "Cruise Control, Rear AC Vents, Reverse Camera",
+      "usage": "family",
+      "call": "9717791008",
+      "link": "https://example.com/tatamodel37"
+    }
+  },
+  {
+    "id": 37,
+    "text": "Car Name: Maruti Model 38\nBrand: Maruti\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: 15-20 kmpl\nAirbags: 7\nFeatures: Sunroof, Rear AC Vents, Alloy Wheels\nUsage: family\nPrice: 6L\nPhone: 9658958938\nLink: https://example.com/marutimodel38",
+    "metadata": {
+      "name": "Maruti Model 38",
+      "brand": "Maruti",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "6L",
+      "seats": "6 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "7",
+      "features": "Sunroof, Rear AC Vents, Alloy Wheels",
+      "usage": "family",
+      "call": "9658958938",
+      "link": "https://example.com/marutimodel38"
+    }
+  },
+  {
+    "id": 38,
+    "text": "Car Name: MG Model 39\nBrand: MG\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 8\nFeatures: Touchscreen Display, Hill Hold Control, Music System\nUsage: city\nPrice: 25L\nPhone: 9338766725\nLink: https://example.com/mgmodel39",
+    "metadata": {
+      "name": "MG Model 39",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "25L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "8",
+      "features": "Touchscreen Display, Hill Hold Control, Music System",
+      "usage": "city",
+      "call": "9338766725",
+      "link": "https://example.com/mgmodel39"
+    }
+  },
+  {
+    "id": 39,
+    "text": "Car Name: Honda Model 40\nBrand: Honda\nBody Type: SUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 7\nFeatures: Touchscreen Display, Alloy Wheels, Sunroof\nUsage: highway\nPrice: 6L\nPhone: 9141068503\nLink: https://example.com/hondamodel40",
+    "metadata": {
+      "name": "Honda Model 40",
+      "brand": "Honda",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "6L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "7",
+      "features": "Touchscreen Display, Alloy Wheels, Sunroof",
+      "usage": "highway",
+      "call": "9141068503",
+      "link": "https://example.com/hondamodel40"
+    }
+  },
+  {
+    "id": 40,
+    "text": "Car Name: MG Model 41\nBrand: MG\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Hill Hold Control, Touchscreen Display, Reverse Camera\nUsage: highway\nPrice: 28L\nPhone: 9894519409\nLink: https://example.com/mgmodel41",
+    "metadata": {
+      "name": "MG Model 41",
+      "brand": "MG",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "clutchless manual",
+      "price": "28L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Hill Hold Control, Touchscreen Display, Reverse Camera",
+      "usage": "highway",
+      "call": "9894519409",
+      "link": "https://example.com/mgmodel41"
+    }
+  },
+  {
+    "id": 41,
+    "text": "Car Name: Toyota Model 42\nBrand: Toyota\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Hill Hold Control, Reverse Camera, Wireless Charging\nUsage: off-road\nPrice: 30L\nPhone: 9081628928\nLink: https://example.com/toyotamodel42",
+    "metadata": {
+      "name": "Toyota Model 42",
+      "brand": "Toyota",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "30L",
+      "seats": "8 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Hill Hold Control, Reverse Camera, Wireless Charging",
+      "usage": "off-road",
+      "call": "9081628928",
+      "link": "https://example.com/toyotamodel42"
+    }
+  },
+  {
+    "id": 42,
+    "text": "Car Name: Toyota Model 43\nBrand: Toyota\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Touchscreen Display, Reverse Camera\nUsage: off-road\nPrice: 29L\nPhone: 9687170832\nLink: https://example.com/toyotamodel43",
+    "metadata": {
+      "name": "Toyota Model 43",
+      "brand": "Toyota",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "29L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Touchscreen Display, Reverse Camera",
+      "usage": "off-road",
+      "call": "9687170832",
+      "link": "https://example.com/toyotamodel43"
+    }
+  },
+  {
+    "id": 43,
+    "text": "Car Name: Kia Model 44\nBrand: Kia\nBody Type: Sedan\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Rear AC Vents, Reverse Camera, Sunroof\nUsage: family\nPrice: 27L\nPhone: 9228596594\nLink: https://example.com/kiamodel44",
+    "metadata": {
+      "name": "Kia Model 44",
+      "brand": "Kia",
+      "body_type": "Sedan",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "27L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Rear AC Vents, Reverse Camera, Sunroof",
+      "usage": "family",
+      "call": "9228596594",
+      "link": "https://example.com/kiamodel44"
+    }
+  },
+  {
+    "id": 44,
+    "text": "Car Name: Mahindra Model 45\nBrand: Mahindra\nBody Type: SUV\nFuel Type: Electric\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: 15-20 kmpl\nAirbags: 8\nFeatures: Alloy Wheels, Music System, Wireless Charging\nUsage: off-road\nPrice: 15L\nPhone: 9551623754\nLink: https://example.com/mahindramodel45",
+    "metadata": {
+      "name": "Mahindra Model 45",
+      "brand": "Mahindra",
+      "body_type": "SUV",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "price": "15L",
+      "seats": "7 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "8",
+      "features": "Alloy Wheels, Music System, Wireless Charging",
+      "usage": "off-road",
+      "call": "9551623754",
+      "link": "https://example.com/mahindramodel45"
+    }
+  },
+  {
+    "id": 45,
+    "text": "Car Name: MG Model 46\nBrand: MG\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Wireless Charging, Hill Hold Control, Ventilated Seats\nUsage: off-road\nPrice: 17L\nPhone: 9785820249\nLink: https://example.com/mgmodel46",
+    "metadata": {
+      "name": "MG Model 46",
+      "brand": "MG",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "17L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Wireless Charging, Hill Hold Control, Ventilated Seats",
+      "usage": "off-road",
+      "call": "9785820249",
+      "link": "https://example.com/mgmodel46"
+    }
+  },
+  {
+    "id": 46,
+    "text": "Car Name: Hyundai Model 47\nBrand: Hyundai\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Wireless Charging, Cruise Control, Rear AC Vents\nUsage: off-road\nPrice: 24L\nPhone: 9791347241\nLink: https://example.com/hyundaimodel47",
+    "metadata": {
+      "name": "Hyundai Model 47",
+      "brand": "Hyundai",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Wireless Charging, Cruise Control, Rear AC Vents",
+      "usage": "off-road",
+      "call": "9791347241",
+      "link": "https://example.com/hyundaimodel47"
+    }
+  },
+  {
+    "id": 47,
+    "text": "Car Name: Mahindra Model 48\nBrand: Mahindra\nBody Type: Sedan\nFuel Type: Hybrid\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 5\nFeatures: Alloy Wheels, Central Locking, Music System\nUsage: city\nPrice: 23L\nPhone: 9889512804\nLink: https://example.com/mahindramodel48",
+    "metadata": {
+      "name": "Mahindra Model 48",
+      "brand": "Mahindra",
+      "body_type": "Sedan",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "price": "23L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "5",
+      "features": "Alloy Wheels, Central Locking, Music System",
+      "usage": "city",
+      "call": "9889512804",
+      "link": "https://example.com/mahindramodel48"
+    }
+  },
+  {
+    "id": 48,
+    "text": "Car Name: Maruti Model 49\nBrand: Maruti\nBody Type: Sedan\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 2\nFeatures: Music System, Ventilated Seats, Central Locking\nUsage: family\nPrice: 23L\nPhone: 9521469745\nLink: https://example.com/marutimodel49",
+    "metadata": {
+      "name": "Maruti Model 49",
+      "brand": "Maruti",
+      "body_type": "Sedan",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "23L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "2",
+      "features": "Music System, Ventilated Seats, Central Locking",
+      "usage": "family",
+      "call": "9521469745",
+      "link": "https://example.com/marutimodel49"
+    }
+  },
+  {
+    "id": 49,
+    "text": "Car Name: MG Model 50\nBrand: MG\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 5\nFeatures: Ventilated Seats, Alloy Wheels, Sunroof\nUsage: city\nPrice: 18L\nPhone: 9641111858\nLink: https://example.com/mgmodel50",
+    "metadata": {
+      "name": "MG Model 50",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "18L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "5",
+      "features": "Ventilated Seats, Alloy Wheels, Sunroof",
+      "usage": "city",
+      "call": "9641111858",
+      "link": "https://example.com/mgmodel50"
+    }
+  },
+  {
+    "id": 50,
+    "text": "Car Name: Maruti Model 51\nBrand: Maruti\nBody Type: Hatchback\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Alloy Wheels, Cruise Control, Wireless Charging\nUsage: city\nPrice: 8L\nPhone: 9520053308\nLink: https://example.com/marutimodel51",
+    "metadata": {
+      "name": "Maruti Model 51",
+      "brand": "Maruti",
+      "body_type": "Hatchback",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "8L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Alloy Wheels, Cruise Control, Wireless Charging",
+      "usage": "city",
+      "call": "9520053308",
+      "link": "https://example.com/marutimodel51"
+    }
+  },
+  {
+    "id": 51,
+    "text": "Car Name: MG Model 52\nBrand: MG\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Rear AC Vents, Ventilated Seats, Music System\nUsage: city\nPrice: 17L\nPhone: 9179284990\nLink: https://example.com/mgmodel52",
+    "metadata": {
+      "name": "MG Model 52",
+      "brand": "MG",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "clutchless manual",
+      "price": "17L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Rear AC Vents, Ventilated Seats, Music System",
+      "usage": "city",
+      "call": "9179284990",
+      "link": "https://example.com/mgmodel52"
+    }
+  },
+  {
+    "id": 52,
+    "text": "Car Name: Mahindra Model 53\nBrand: Mahindra\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 7\nFeatures: Music System, Central Locking, Wireless Charging\nUsage: city\nPrice: 21L\nPhone: 9876326549\nLink: https://example.com/mahindramodel53",
+    "metadata": {
+      "name": "Mahindra Model 53",
+      "brand": "Mahindra",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "21L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "7",
+      "features": "Music System, Central Locking, Wireless Charging",
+      "usage": "city",
+      "call": "9876326549",
+      "link": "https://example.com/mahindramodel53"
+    }
+  },
+  {
+    "id": 53,
+    "text": "Car Name: Honda Model 54\nBrand: Honda\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 8\nFeatures: Hill Hold Control, Music System, Rear AC Vents\nUsage: off-road\nPrice: 12L\nPhone: 9950192622\nLink: https://example.com/hondamodel54",
+    "metadata": {
+      "name": "Honda Model 54",
+      "brand": "Honda",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "12L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "8",
+      "features": "Hill Hold Control, Music System, Rear AC Vents",
+      "usage": "off-road",
+      "call": "9950192622",
+      "link": "https://example.com/hondamodel54"
+    }
+  },
+  {
+    "id": 54,
+    "text": "Car Name: Tata Model 55\nBrand: Tata\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Sunroof, Reverse Camera, Central Locking\nUsage: off-road\nPrice: 16L\nPhone: 9539802102\nLink: https://example.com/tatamodel55",
+    "metadata": {
+      "name": "Tata Model 55",
+      "brand": "Tata",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "16L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Sunroof, Reverse Camera, Central Locking",
+      "usage": "off-road",
+      "call": "9539802102",
+      "link": "https://example.com/tatamodel55"
+    }
+  },
+  {
+    "id": 55,
+    "text": "Car Name: Tata Model 56\nBrand: Tata\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Central Locking, Alloy Wheels, Music System\nUsage: highway\nPrice: 11L\nPhone: 9790842662\nLink: https://example.com/tatamodel56",
+    "metadata": {
+      "name": "Tata Model 56",
+      "brand": "Tata",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "automatic",
+      "price": "11L",
+      "seats": "8 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Central Locking, Alloy Wheels, Music System",
+      "usage": "highway",
+      "call": "9790842662",
+      "link": "https://example.com/tatamodel56"
+    }
+  },
+  {
+    "id": 56,
+    "text": "Car Name: Hyundai Model 57\nBrand: Hyundai\nBody Type: MUV\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Ventilated Seats, Sunroof, Rear AC Vents\nUsage: city\nPrice: 30L\nPhone: 9053875174\nLink: https://example.com/hyundaimodel57",
+    "metadata": {
+      "name": "Hyundai Model 57",
+      "brand": "Hyundai",
+      "body_type": "MUV",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "30L",
+      "seats": "7 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Ventilated Seats, Sunroof, Rear AC Vents",
+      "usage": "city",
+      "call": "9053875174",
+      "link": "https://example.com/hyundaimodel57"
+    }
+  },
+  {
+    "id": 57,
+    "text": "Car Name: Honda Model 58\nBrand: Honda\nBody Type: SUV\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 8\nFeatures: Reverse Camera, Central Locking, Sunroof\nUsage: off-road\nPrice: 26L\nPhone: 9324628493\nLink: https://example.com/hondamodel58",
+    "metadata": {
+      "name": "Honda Model 58",
+      "brand": "Honda",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "26L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "8",
+      "features": "Reverse Camera, Central Locking, Sunroof",
+      "usage": "off-road",
+      "call": "9324628493",
+      "link": "https://example.com/hondamodel58"
+    }
+  },
+  {
+    "id": 58,
+    "text": "Car Name: Tata Model 59\nBrand: Tata\nBody Type: Hatchback\nFuel Type: Hybrid\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Ventilated Seats, Rear AC Vents, Touchscreen Display\nUsage: family\nPrice: 25L\nPhone: 9056199841\nLink: https://example.com/tatamodel59",
+    "metadata": {
+      "name": "Tata Model 59",
+      "brand": "Tata",
+      "body_type": "Hatchback",
+      "fuel_type": "hybrid",
+      "transmission": "automatic",
+      "price": "25L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Ventilated Seats, Rear AC Vents, Touchscreen Display",
+      "usage": "family",
+      "call": "9056199841",
+      "link": "https://example.com/tatamodel59"
+    }
+  },
+  {
+    "id": 59,
+    "text": "Car Name: Toyota Model 60\nBrand: Toyota\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 7\nFeatures: Music System, Touchscreen Display, Wireless Charging\nUsage: highway\nPrice: 13L\nPhone: 9774860052\nLink: https://example.com/toyotamodel60",
+    "metadata": {
+      "name": "Toyota Model 60",
+      "brand": "Toyota",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "13L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "7",
+      "features": "Music System, Touchscreen Display, Wireless Charging",
+      "usage": "highway",
+      "call": "9774860052",
+      "link": "https://example.com/toyotamodel60"
+    }
+  },
+  {
+    "id": 60,
+    "text": "Car Name: Tata Model 61\nBrand: Tata\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 7\nFeatures: Wireless Charging, Music System, Alloy Wheels\nUsage: off-road\nPrice: 11L\nPhone: 9710268227\nLink: https://example.com/tatamodel61",
+    "metadata": {
+      "name": "Tata Model 61",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "clutchless manual",
+      "price": "11L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "7",
+      "features": "Wireless Charging, Music System, Alloy Wheels",
+      "usage": "off-road",
+      "call": "9710268227",
+      "link": "https://example.com/tatamodel61"
+    }
+  },
+  {
+    "id": 61,
+    "text": "Car Name: Kia Model 62\nBrand: Kia\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 4\nFeatures: Central Locking, Music System, Reverse Camera\nUsage: city\nPrice: 6L\nPhone: 9757975922\nLink: https://example.com/kiamodel62",
+    "metadata": {
+      "name": "Kia Model 62",
+      "brand": "Kia",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "6L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "4",
+      "features": "Central Locking, Music System, Reverse Camera",
+      "usage": "city",
+      "call": "9757975922",
+      "link": "https://example.com/kiamodel62"
+    }
+  },
+  {
+    "id": 62,
+    "text": "Car Name: MG Model 63\nBrand: MG\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Music System, Hill Hold Control, Reverse Camera\nUsage: highway\nPrice: 15L\nPhone: 9412686083\nLink: https://example.com/mgmodel63",
+    "metadata": {
+      "name": "MG Model 63",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "15L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Music System, Hill Hold Control, Reverse Camera",
+      "usage": "highway",
+      "call": "9412686083",
+      "link": "https://example.com/mgmodel63"
+    }
+  },
+  {
+    "id": 63,
+    "text": "Car Name: Kia Model 64\nBrand: Kia\nBody Type: SUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 7\nFeatures: Wireless Charging, Alloy Wheels, Central Locking\nUsage: off-road\nPrice: 13L\nPhone: 9032057990\nLink: https://example.com/kiamodel64",
+    "metadata": {
+      "name": "Kia Model 64",
+      "brand": "Kia",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "13L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "7",
+      "features": "Wireless Charging, Alloy Wheels, Central Locking",
+      "usage": "off-road",
+      "call": "9032057990",
+      "link": "https://example.com/kiamodel64"
+    }
+  },
+  {
+    "id": 64,
+    "text": "Car Name: MG Model 65\nBrand: MG\nBody Type: SUV\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Central Locking, Ventilated Seats, Cruise Control\nUsage: city\nPrice: 22L\nPhone: 9526231652\nLink: https://example.com/mgmodel65",
+    "metadata": {
+      "name": "MG Model 65",
+      "brand": "MG",
+      "body_type": "SUV",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "22L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Central Locking, Ventilated Seats, Cruise Control",
+      "usage": "city",
+      "call": "9526231652",
+      "link": "https://example.com/mgmodel65"
+    }
+  },
+  {
+    "id": 65,
+    "text": "Car Name: Toyota Model 66\nBrand: Toyota\nBody Type: SUV\nFuel Type: Hybrid\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 7\nFeatures: Ventilated Seats, Wireless Charging, Rear AC Vents\nUsage: city\nPrice: 11L\nPhone: 9801646890\nLink: https://example.com/toyotamodel66",
+    "metadata": {
+      "name": "Toyota Model 66",
+      "brand": "Toyota",
+      "body_type": "SUV",
+      "fuel_type": "hybrid",
+      "transmission": "clutchless manual",
+      "price": "11L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "7",
+      "features": "Ventilated Seats, Wireless Charging, Rear AC Vents",
+      "usage": "city",
+      "call": "9801646890",
+      "link": "https://example.com/toyotamodel66"
+    }
+  },
+  {
+    "id": 66,
+    "text": "Car Name: Honda Model 67\nBrand: Honda\nBody Type: Sedan\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Cruise Control, Alloy Wheels\nUsage: family\nPrice: 5L\nPhone: 9412207883\nLink: https://example.com/hondamodel67",
+    "metadata": {
+      "name": "Honda Model 67",
+      "brand": "Honda",
+      "body_type": "Sedan",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "5L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Cruise Control, Alloy Wheels",
+      "usage": "family",
+      "call": "9412207883",
+      "link": "https://example.com/hondamodel67"
+    }
+  },
+  {
+    "id": 67,
+    "text": "Car Name: Hyundai Model 68\nBrand: Hyundai\nBody Type: SUV\nFuel Type: CNG\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: 15-20 kmpl\nAirbags: 7\nFeatures: Reverse Camera, Wireless Charging, Ventilated Seats\nUsage: city\nPrice: 22L\nPhone: 9713031291\nLink: https://example.com/hyundaimodel68",
+    "metadata": {
+      "name": "Hyundai Model 68",
+      "brand": "Hyundai",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "manual",
+      "price": "22L",
+      "seats": "5 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "7",
+      "features": "Reverse Camera, Wireless Charging, Ventilated Seats",
+      "usage": "city",
+      "call": "9713031291",
+      "link": "https://example.com/hyundaimodel68"
+    }
+  },
+  {
+    "id": 68,
+    "text": "Car Name: Honda Model 69\nBrand: Honda\nBody Type: SUV\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 4\nFeatures: Sunroof, Alloy Wheels, Cruise Control\nUsage: family\nPrice: 16L\nPhone: 9946691287\nLink: https://example.com/hondamodel69",
+    "metadata": {
+      "name": "Honda Model 69",
+      "brand": "Honda",
+      "body_type": "SUV",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "16L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "4",
+      "features": "Sunroof, Alloy Wheels, Cruise Control",
+      "usage": "family",
+      "call": "9946691287",
+      "link": "https://example.com/hondamodel69"
+    }
+  },
+  {
+    "id": 69,
+    "text": "Car Name: Toyota Model 70\nBrand: Toyota\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 7\nFeatures: Wireless Charging, Alloy Wheels, Reverse Camera\nUsage: highway\nPrice: 23L\nPhone: 9991765553\nLink: https://example.com/toyotamodel70",
+    "metadata": {
+      "name": "Toyota Model 70",
+      "brand": "Toyota",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "23L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "7",
+      "features": "Wireless Charging, Alloy Wheels, Reverse Camera",
+      "usage": "highway",
+      "call": "9991765553",
+      "link": "https://example.com/toyotamodel70"
+    }
+  },
+  {
+    "id": 70,
+    "text": "Car Name: MG Model 71\nBrand: MG\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Central Locking, Ventilated Seats, Sunroof\nUsage: city\nPrice: 7L\nPhone: 9728940511\nLink: https://example.com/mgmodel71",
+    "metadata": {
+      "name": "MG Model 71",
+      "brand": "MG",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "7L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Central Locking, Ventilated Seats, Sunroof",
+      "usage": "city",
+      "call": "9728940511",
+      "link": "https://example.com/mgmodel71"
+    }
+  },
+  {
+    "id": 71,
+    "text": "Car Name: Maruti Model 72\nBrand: Maruti\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Music System, Alloy Wheels\nUsage: city\nPrice: 18L\nPhone: 9766844612\nLink: https://example.com/marutimodel72",
+    "metadata": {
+      "name": "Maruti Model 72",
+      "brand": "Maruti",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "18L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Music System, Alloy Wheels",
+      "usage": "city",
+      "call": "9766844612",
+      "link": "https://example.com/marutimodel72"
+    }
+  },
+  {
+    "id": 72,
+    "text": "Car Name: Hyundai Model 73\nBrand: Hyundai\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Rear AC Vents, Cruise Control, Wireless Charging\nUsage: highway\nPrice: 9L\nPhone: 9014846850\nLink: https://example.com/hyundaimodel73",
+    "metadata": {
+      "name": "Hyundai Model 73",
+      "brand": "Hyundai",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "9L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Rear AC Vents, Cruise Control, Wireless Charging",
+      "usage": "highway",
+      "call": "9014846850",
+      "link": "https://example.com/hyundaimodel73"
+    }
+  },
+  {
+    "id": 73,
+    "text": "Car Name: Maruti Model 74\nBrand: Maruti\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Ventilated Seats, Rear AC Vents, Reverse Camera\nUsage: family\nPrice: 20L\nPhone: 9792329590\nLink: https://example.com/marutimodel74",
+    "metadata": {
+      "name": "Maruti Model 74",
+      "brand": "Maruti",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "20L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Ventilated Seats, Rear AC Vents, Reverse Camera",
+      "usage": "family",
+      "call": "9792329590",
+      "link": "https://example.com/marutimodel74"
+    }
+  },
+  {
+    "id": 74,
+    "text": "Car Name: Kia Model 75\nBrand: Kia\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 2\nFeatures: Central Locking, Music System, Reverse Camera\nUsage: off-road\nPrice: 12L\nPhone: 9579431220\nLink: https://example.com/kiamodel75",
+    "metadata": {
+      "name": "Kia Model 75",
+      "brand": "Kia",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "12L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "2",
+      "features": "Central Locking, Music System, Reverse Camera",
+      "usage": "off-road",
+      "call": "9579431220",
+      "link": "https://example.com/kiamodel75"
+    }
+  },
+  {
+    "id": 75,
+    "text": "Car Name: Honda Model 76\nBrand: Honda\nBody Type: MUV\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 6\nFeatures: Central Locking, Touchscreen Display, Sunroof\nUsage: highway\nPrice: 23L\nPhone: 9769483171\nLink: https://example.com/hondamodel76",
+    "metadata": {
+      "name": "Honda Model 76",
+      "brand": "Honda",
+      "body_type": "MUV",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "23L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "6",
+      "features": "Central Locking, Touchscreen Display, Sunroof",
+      "usage": "highway",
+      "call": "9769483171",
+      "link": "https://example.com/hondamodel76"
+    }
+  },
+  {
+    "id": 76,
+    "text": "Car Name: Hyundai Model 77\nBrand: Hyundai\nBody Type: Sedan\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Alloy Wheels, Central Locking, Cruise Control\nUsage: family\nPrice: 10L\nPhone: 9575381124\nLink: https://example.com/hyundaimodel77",
+    "metadata": {
+      "name": "Hyundai Model 77",
+      "brand": "Hyundai",
+      "body_type": "Sedan",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "10L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Alloy Wheels, Central Locking, Cruise Control",
+      "usage": "family",
+      "call": "9575381124",
+      "link": "https://example.com/hyundaimodel77"
+    }
+  },
+  {
+    "id": 77,
+    "text": "Car Name: Mahindra Model 78\nBrand: Mahindra\nBody Type: MUV\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 7\nFeatures: Sunroof, Ventilated Seats, Reverse Camera\nUsage: city\nPrice: 17L\nPhone: 9885393748\nLink: https://example.com/mahindramodel78",
+    "metadata": {
+      "name": "Mahindra Model 78",
+      "brand": "Mahindra",
+      "body_type": "MUV",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "17L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "7",
+      "features": "Sunroof, Ventilated Seats, Reverse Camera",
+      "usage": "city",
+      "call": "9885393748",
+      "link": "https://example.com/mahindramodel78"
+    }
+  },
+  {
+    "id": 78,
+    "text": "Car Name: Toyota Model 79\nBrand: Toyota\nBody Type: MUV\nFuel Type: CNG\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 5\nFeatures: Hill Hold Control, Ventilated Seats, Central Locking\nUsage: highway\nPrice: 29L\nPhone: 9385379157\nLink: https://example.com/toyotamodel79",
+    "metadata": {
+      "name": "Toyota Model 79",
+      "brand": "Toyota",
+      "body_type": "MUV",
+      "fuel_type": "cng",
+      "transmission": "clutchless manual",
+      "price": "29L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "5",
+      "features": "Hill Hold Control, Ventilated Seats, Central Locking",
+      "usage": "highway",
+      "call": "9385379157",
+      "link": "https://example.com/toyotamodel79"
+    }
+  },
+  {
+    "id": 79,
+    "text": "Car Name: Tata Model 80\nBrand: Tata\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Automatic\nSeating Capacity: 8 Seater\nMileage: 10-15 kmpl\nAirbags: 8\nFeatures: Rear AC Vents, Wireless Charging, Ventilated Seats\nUsage: off-road\nPrice: 26L\nPhone: 9118820990\nLink: https://example.com/tatamodel80",
+    "metadata": {
+      "name": "Tata Model 80",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "automatic",
+      "price": "26L",
+      "seats": "8 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "8",
+      "features": "Rear AC Vents, Wireless Charging, Ventilated Seats",
+      "usage": "off-road",
+      "call": "9118820990",
+      "link": "https://example.com/tatamodel80"
+    }
+  },
+  {
+    "id": 80,
+    "text": "Car Name: Toyota Model 81\nBrand: Toyota\nBody Type: MUV\nFuel Type: CNG\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 6\nFeatures: Alloy Wheels, Reverse Camera, Rear AC Vents\nUsage: family\nPrice: 24L\nPhone: 9364381435\nLink: https://example.com/toyotamodel81",
+    "metadata": {
+      "name": "Toyota Model 81",
+      "brand": "Toyota",
+      "body_type": "MUV",
+      "fuel_type": "cng",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "6",
+      "features": "Alloy Wheels, Reverse Camera, Rear AC Vents",
+      "usage": "family",
+      "call": "9364381435",
+      "link": "https://example.com/toyotamodel81"
+    }
+  },
+  {
+    "id": 81,
+    "text": "Car Name: Kia Model 82\nBrand: Kia\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 5 Seater\nMileage: Upto 10 kmpl\nAirbags: 6\nFeatures: Alloy Wheels, Rear AC Vents, Cruise Control\nUsage: family\nPrice: 22L\nPhone: 9258435640\nLink: https://example.com/kiamodel82",
+    "metadata": {
+      "name": "Kia Model 82",
+      "brand": "Kia",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "22L",
+      "seats": "5 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "6",
+      "features": "Alloy Wheels, Rear AC Vents, Cruise Control",
+      "usage": "family",
+      "call": "9258435640",
+      "link": "https://example.com/kiamodel82"
+    }
+  },
+  {
+    "id": 82,
+    "text": "Car Name: Kia Model 83\nBrand: Kia\nBody Type: Hatchback\nFuel Type: Electric\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: 15-20 kmpl\nAirbags: 6\nFeatures: Music System, Central Locking, Hill Hold Control\nUsage: off-road\nPrice: 29L\nPhone: 9281364277\nLink: https://example.com/kiamodel83",
+    "metadata": {
+      "name": "Kia Model 83",
+      "brand": "Kia",
+      "body_type": "Hatchback",
+      "fuel_type": "electric",
+      "transmission": "clutchless manual",
+      "price": "29L",
+      "seats": "7 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "6",
+      "features": "Music System, Central Locking, Hill Hold Control",
+      "usage": "off-road",
+      "call": "9281364277",
+      "link": "https://example.com/kiamodel83"
+    }
+  },
+  {
+    "id": 83,
+    "text": "Car Name: Kia Model 84\nBrand: Kia\nBody Type: MUV\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Hill Hold Control, Reverse Camera, Sunroof\nUsage: family\nPrice: 26L\nPhone: 9400945294\nLink: https://example.com/kiamodel84",
+    "metadata": {
+      "name": "Kia Model 84",
+      "brand": "Kia",
+      "body_type": "MUV",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "26L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Hill Hold Control, Reverse Camera, Sunroof",
+      "usage": "family",
+      "call": "9400945294",
+      "link": "https://example.com/kiamodel84"
+    }
+  },
+  {
+    "id": 84,
+    "text": "Car Name: Tata Model 85\nBrand: Tata\nBody Type: SUV\nFuel Type: Petrol\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Upto 10 kmpl\nAirbags: 6\nFeatures: Touchscreen Display, Central Locking, Wireless Charging\nUsage: city\nPrice: 7L\nPhone: 9840891959\nLink: https://example.com/tatamodel85",
+    "metadata": {
+      "name": "Tata Model 85",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "petrol",
+      "transmission": "manual",
+      "price": "7L",
+      "seats": "8 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "6",
+      "features": "Touchscreen Display, Central Locking, Wireless Charging",
+      "usage": "city",
+      "call": "9840891959",
+      "link": "https://example.com/tatamodel85"
+    }
+  },
+  {
+    "id": 85,
+    "text": "Car Name: Honda Model 86\nBrand: Honda\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 8 Seater\nMileage: 15-20 kmpl\nAirbags: 2\nFeatures: Wireless Charging, Hill Hold Control, Touchscreen Display\nUsage: city\nPrice: 11L\nPhone: 9939931015\nLink: https://example.com/hondamodel86",
+    "metadata": {
+      "name": "Honda Model 86",
+      "brand": "Honda",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "11L",
+      "seats": "8 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "2",
+      "features": "Wireless Charging, Hill Hold Control, Touchscreen Display",
+      "usage": "city",
+      "call": "9939931015",
+      "link": "https://example.com/hondamodel86"
+    }
+  },
+  {
+    "id": 86,
+    "text": "Car Name: Honda Model 87\nBrand: Honda\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 5 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Reverse Camera, Alloy Wheels, Sunroof\nUsage: off-road\nPrice: 28L\nPhone: 9618038220\nLink: https://example.com/hondamodel87",
+    "metadata": {
+      "name": "Honda Model 87",
+      "brand": "Honda",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "28L",
+      "seats": "5 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Reverse Camera, Alloy Wheels, Sunroof",
+      "usage": "off-road",
+      "call": "9618038220",
+      "link": "https://example.com/hondamodel87"
+    }
+  },
+  {
+    "id": 87,
+    "text": "Car Name: MG Model 88\nBrand: MG\nBody Type: SUV\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: 15-20 kmpl\nAirbags: 4\nFeatures: Cruise Control, Music System, Central Locking\nUsage: family\nPrice: 24L\nPhone: 9561295273\nLink: https://example.com/mgmodel88",
+    "metadata": {
+      "name": "MG Model 88",
+      "brand": "MG",
+      "body_type": "SUV",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "6 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "4",
+      "features": "Cruise Control, Music System, Central Locking",
+      "usage": "family",
+      "call": "9561295273",
+      "link": "https://example.com/mgmodel88"
+    }
+  },
+  {
+    "id": 88,
+    "text": "Car Name: Honda Model 89\nBrand: Honda\nBody Type: MUV\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: Above 20 kmpl\nAirbags: 2\nFeatures: Sunroof, Hill Hold Control, Alloy Wheels\nUsage: highway\nPrice: 24L\nPhone: 9821112432\nLink: https://example.com/hondamodel89",
+    "metadata": {
+      "name": "Honda Model 89",
+      "brand": "Honda",
+      "body_type": "MUV",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "24L",
+      "seats": "6 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "2",
+      "features": "Sunroof, Hill Hold Control, Alloy Wheels",
+      "usage": "highway",
+      "call": "9821112432",
+      "link": "https://example.com/hondamodel89"
+    }
+  },
+  {
+    "id": 89,
+    "text": "Car Name: Hyundai Model 90\nBrand: Hyundai\nBody Type: Hatchback\nFuel Type: CNG\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 4\nFeatures: Central Locking, Alloy Wheels, Hill Hold Control\nUsage: family\nPrice: 23L\nPhone: 9506783684\nLink: https://example.com/hyundaimodel90",
+    "metadata": {
+      "name": "Hyundai Model 90",
+      "brand": "Hyundai",
+      "body_type": "Hatchback",
+      "fuel_type": "cng",
+      "transmission": "automatic",
+      "price": "23L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "4",
+      "features": "Central Locking, Alloy Wheels, Hill Hold Control",
+      "usage": "family",
+      "call": "9506783684",
+      "link": "https://example.com/hyundaimodel90"
+    }
+  },
+  {
+    "id": 90,
+    "text": "Car Name: Hyundai Model 91\nBrand: Hyundai\nBody Type: SUV\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 8\nFeatures: Cruise Control, Hill Hold Control, Central Locking\nUsage: off-road\nPrice: 30L\nPhone: 9873931220\nLink: https://example.com/hyundaimodel91",
+    "metadata": {
+      "name": "Hyundai Model 91",
+      "brand": "Hyundai",
+      "body_type": "SUV",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "30L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "8",
+      "features": "Cruise Control, Hill Hold Control, Central Locking",
+      "usage": "off-road",
+      "call": "9873931220",
+      "link": "https://example.com/hyundaimodel91"
+    }
+  },
+  {
+    "id": 91,
+    "text": "Car Name: Mahindra Model 92\nBrand: Mahindra\nBody Type: Hatchback\nFuel Type: Petrol\nTransmission: Automatic\nSeating Capacity: 6 Seater\nMileage: 10-15 kmpl\nAirbags: 6\nFeatures: Central Locking, Touchscreen Display, Alloy Wheels\nUsage: family\nPrice: 25L\nPhone: 9338740888\nLink: https://example.com/mahindramodel92",
+    "metadata": {
+      "name": "Mahindra Model 92",
+      "brand": "Mahindra",
+      "body_type": "Hatchback",
+      "fuel_type": "petrol",
+      "transmission": "automatic",
+      "price": "25L",
+      "seats": "6 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "6",
+      "features": "Central Locking, Touchscreen Display, Alloy Wheels",
+      "usage": "family",
+      "call": "9338740888",
+      "link": "https://example.com/mahindramodel92"
+    }
+  },
+  {
+    "id": 92,
+    "text": "Car Name: MG Model 93\nBrand: MG\nBody Type: Hatchback\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: Above 20 kmpl\nAirbags: 4\nFeatures: Rear AC Vents, Touchscreen Display, Wireless Charging\nUsage: off-road\nPrice: 15L\nPhone: 9833749303\nLink: https://example.com/mgmodel93",
+    "metadata": {
+      "name": "MG Model 93",
+      "brand": "MG",
+      "body_type": "Hatchback",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "15L",
+      "seats": "8 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "4",
+      "features": "Rear AC Vents, Touchscreen Display, Wireless Charging",
+      "usage": "off-road",
+      "call": "9833749303",
+      "link": "https://example.com/mgmodel93"
+    }
+  },
+  {
+    "id": 93,
+    "text": "Car Name: Tata Model 94\nBrand: Tata\nBody Type: Hatchback\nFuel Type: Hybrid\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: 10-15 kmpl\nAirbags: 4\nFeatures: Cruise Control, Ventilated Seats, Alloy Wheels\nUsage: family\nPrice: 18L\nPhone: 9590042609\nLink: https://example.com/tatamodel94",
+    "metadata": {
+      "name": "Tata Model 94",
+      "brand": "Tata",
+      "body_type": "Hatchback",
+      "fuel_type": "hybrid",
+      "transmission": "clutchless manual",
+      "price": "18L",
+      "seats": "7 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "4",
+      "features": "Cruise Control, Ventilated Seats, Alloy Wheels",
+      "usage": "family",
+      "call": "9590042609",
+      "link": "https://example.com/tatamodel94"
+    }
+  },
+  {
+    "id": 94,
+    "text": "Car Name: Maruti Model 95\nBrand: Maruti\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 5 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Reverse Camera, Alloy Wheels, Sunroof\nUsage: city\nPrice: 20L\nPhone: 9985424860\nLink: https://example.com/marutimodel95",
+    "metadata": {
+      "name": "Maruti Model 95",
+      "brand": "Maruti",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "20L",
+      "seats": "5 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Reverse Camera, Alloy Wheels, Sunroof",
+      "usage": "city",
+      "call": "9985424860",
+      "link": "https://example.com/marutimodel95"
+    }
+  },
+  {
+    "id": 95,
+    "text": "Car Name: Hyundai Model 96\nBrand: Hyundai\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Clutchless Manual\nSeating Capacity: 6 Seater\nMileage: 15-20 kmpl\nAirbags: 8\nFeatures: Central Locking, Sunroof, Ventilated Seats\nUsage: city\nPrice: 23L\nPhone: 9704849718\nLink: https://example.com/hyundaimodel96",
+    "metadata": {
+      "name": "Hyundai Model 96",
+      "brand": "Hyundai",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "clutchless manual",
+      "price": "23L",
+      "seats": "6 Seater",
+      "mileage": "15-20 kmpl",
+      "airbags": "8",
+      "features": "Central Locking, Sunroof, Ventilated Seats",
+      "usage": "city",
+      "call": "9704849718",
+      "link": "https://example.com/hyundaimodel96"
+    }
+  },
+  {
+    "id": 96,
+    "text": "Car Name: MG Model 97\nBrand: MG\nBody Type: Sedan\nFuel Type: Diesel\nTransmission: Clutchless Manual\nSeating Capacity: 7 Seater\nMileage: Upto 10 kmpl\nAirbags: 7\nFeatures: Ventilated Seats, Reverse Camera, Cruise Control\nUsage: highway\nPrice: 7L\nPhone: 9404473329\nLink: https://example.com/mgmodel97",
+    "metadata": {
+      "name": "MG Model 97",
+      "brand": "MG",
+      "body_type": "Sedan",
+      "fuel_type": "diesel",
+      "transmission": "clutchless manual",
+      "price": "7L",
+      "seats": "7 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "7",
+      "features": "Ventilated Seats, Reverse Camera, Cruise Control",
+      "usage": "highway",
+      "call": "9404473329",
+      "link": "https://example.com/mgmodel97"
+    }
+  },
+  {
+    "id": 97,
+    "text": "Car Name: Tata Model 98\nBrand: Tata\nBody Type: SUV\nFuel Type: Hybrid\nTransmission: Manual\nSeating Capacity: 8 Seater\nMileage: 10-15 kmpl\nAirbags: 2\nFeatures: Hill Hold Control, Reverse Camera, Music System\nUsage: city\nPrice: 6L\nPhone: 9424351535\nLink: https://example.com/tatamodel98",
+    "metadata": {
+      "name": "Tata Model 98",
+      "brand": "Tata",
+      "body_type": "SUV",
+      "fuel_type": "hybrid",
+      "transmission": "manual",
+      "price": "6L",
+      "seats": "8 Seater",
+      "mileage": "10-15 kmpl",
+      "airbags": "2",
+      "features": "Hill Hold Control, Reverse Camera, Music System",
+      "usage": "city",
+      "call": "9424351535",
+      "link": "https://example.com/tatamodel98"
+    }
+  },
+  {
+    "id": 98,
+    "text": "Car Name: Tata Model 99\nBrand: Tata\nBody Type: Sedan\nFuel Type: Electric\nTransmission: Manual\nSeating Capacity: 7 Seater\nMileage: Above 20 kmpl\nAirbags: 8\nFeatures: Central Locking, Music System, Rear AC Vents\nUsage: off-road\nPrice: 24L\nPhone: 9609154989\nLink: https://example.com/tatamodel99",
+    "metadata": {
+      "name": "Tata Model 99",
+      "brand": "Tata",
+      "body_type": "Sedan",
+      "fuel_type": "electric",
+      "transmission": "manual",
+      "price": "24L",
+      "seats": "7 Seater",
+      "mileage": "Above 20 kmpl",
+      "airbags": "8",
+      "features": "Central Locking, Music System, Rear AC Vents",
+      "usage": "off-road",
+      "call": "9609154989",
+      "link": "https://example.com/tatamodel99"
+    }
+  },
+  {
+    "id": 99,
+    "text": "Car Name: Maruti Model 100\nBrand: Maruti\nBody Type: MUV\nFuel Type: Diesel\nTransmission: Manual\nSeating Capacity: 6 Seater\nMileage: Upto 10 kmpl\nAirbags: 7\nFeatures: Music System, Touchscreen Display, Ventilated Seats\nUsage: family\nPrice: 7L\nPhone: 9353281219\nLink: https://example.com/marutimodel100",
+    "metadata": {
+      "name": "Maruti Model 100",
+      "brand": "Maruti",
+      "body_type": "MUV",
+      "fuel_type": "diesel",
+      "transmission": "manual",
+      "price": "7L",
+      "seats": "6 Seater",
+      "mileage": "Upto 10 kmpl",
+      "airbags": "7",
+      "features": "Music System, Touchscreen Display, Ventilated Seats",
+      "usage": "family",
+      "call": "9353281219",
+      "link": "https://example.com/marutimodel100"
+    }
+  }
+]
