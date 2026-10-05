@@ -1,0 +1,101 @@
+﻿name,brand,body_type,transmission,fuel_type,seating_capacity,mileage,airbags,additional_features,usage,link,call,price_lakhs
+Toyota Model 1,Toyota,Sedan,Clutchless Manual,Petrol,8 Seater,Above 20 kmpl,6,"Touchscreen Display, Cruise Control, Wireless Charging",city,https://example.com/toyotamodel1,9058179921,17L
+Hyundai Model 2,Hyundai,Hatchback,Clutchless Manual,Petrol,6 Seater,Above 20 kmpl,2,"Wireless Charging, Sunroof, Music System",highway,https://example.com/hyundaimodel2,9606783781,25L
+MG Model 3,MG,MUV,Clutchless Manual,Diesel,7 Seater,10-15 kmpl,2,"Hill Hold Control, Ventilated Seats, Sunroof",city,https://example.com/mgmodel3,9057337635,17L
+MG Model 4,MG,Hatchback,Manual,Electric,6 Seater,Above 20 kmpl,6,"Ventilated Seats, Central Locking, Sunroof",family,https://example.com/mgmodel4,9536914579,24L
+Tata Model 5,Tata,MUV,Automatic,Hybrid,7 Seater,Above 20 kmpl,6,"Music System, Wireless Charging, Touchscreen Display",off-road,https://example.com/tatamodel5,9561924979,21L
+Honda Model 6,Honda,SUV,Manual,Diesel,8 Seater,15-20 kmpl,4,"Cruise Control, Ventilated Seats, Wireless Charging",off-road,https://example.com/hondamodel6,9392190145,24L
+Kia Model 7,Kia,SUV,Clutchless Manual,Petrol,5 Seater,10-15 kmpl,6,"Central Locking, Cruise Control, Rear AC Vents",city,https://example.com/kiamodel7,9225775667,13L
+Hyundai Model 8,Hyundai,SUV,Automatic,Electric,7 Seater,Above 20 kmpl,8,"Wireless Charging, Touchscreen Display, Hill Hold Control",highway,https://example.com/hyundaimodel8,9155255216,11L
+Hyundai Model 9,Hyundai,SUV,Manual,Diesel,6 Seater,10-15 kmpl,6,"Wireless Charging, Rear AC Vents, Touchscreen Display",off-road,https://example.com/hyundaimodel9,9527745161,29L
+Maruti Model 10,Maruti,Hatchback,Automatic,CNG,6 Seater,10-15 kmpl,8,"Alloy Wheels, Wireless Charging, Music System",off-road,https://example.com/marutimodel10,9860269634,17L
+Toyota Model 11,Toyota,Sedan,Automatic,Diesel,5 Seater,Upto 10 kmpl,2,"Wireless Charging, Hill Hold Control, Cruise Control",family,https://example.com/toyotamodel11,9866002137,21L
+Toyota Model 12,Toyota,Hatchback,Manual,Hybrid,6 Seater,Above 20 kmpl,4,"Reverse Camera, Hill Hold Control, Rear AC Vents",highway,https://example.com/toyotamodel12,9596062854,29L
+Honda Model 13,Honda,Sedan,Automatic,Diesel,5 Seater,15-20 kmpl,4,"Reverse Camera, Ventilated Seats, Rear AC Vents",off-road,https://example.com/hondamodel13,9780636317,24L
+Mahindra Model 14,Mahindra,Sedan,Manual,Hybrid,7 Seater,Above 20 kmpl,6,"Music System, Central Locking, Sunroof",family,https://example.com/mahindramodel14,9489583222,27L
+Kia Model 15,Kia,Hatchback,Manual,Electric,8 Seater,Upto 10 kmpl,5,"Central Locking, Hill Hold Control, Touchscreen Display",highway,https://example.com/kiamodel15,9246437819,16L
+Honda Model 16,Honda,Sedan,Manual,Petrol,5 Seater,10-15 kmpl,6,"Reverse Camera, Touchscreen Display, Ventilated Seats",city,https://example.com/hondamodel16,9456573596,13L
+Hyundai Model 17,Hyundai,MUV,Manual,Petrol,7 Seater,Upto 10 kmpl,4,"Alloy Wheels, Cruise Control, Central Locking",city,https://example.com/hyundaimodel17,9474398815,16L
+Honda Model 18,Honda,Hatchback,Automatic,Electric,7 Seater,15-20 kmpl,5,"Alloy Wheels, Reverse Camera, Touchscreen Display",city,https://example.com/hondamodel18,9622933564,14L
+Mahindra Model 19,Mahindra,Hatchback,Clutchless Manual,CNG,6 Seater,10-15 kmpl,7,"Ventilated Seats, Music System, Cruise Control",city,https://example.com/mahindramodel19,9549612683,11L
+Maruti Model 20,Maruti,SUV,Manual,Hybrid,5 Seater,15-20 kmpl,6,"Cruise Control, Sunroof, Reverse Camera",highway,https://example.com/marutimodel20,9486288717,22L
+Tata Model 21,Tata,MUV,Manual,Petrol,8 Seater,Upto 10 kmpl,2,"Rear AC Vents, Touchscreen Display, Reverse Camera",city,https://example.com/tatamodel21,9538764614,11L
+Tata Model 22,Tata,Sedan,Clutchless Manual,Hybrid,6 Seater,15-20 kmpl,5,"Reverse Camera, Sunroof, Central Locking",highway,https://example.com/tatamodel22,9920295868,16L
+Tata Model 23,Tata,Hatchback,Manual,Electric,8 Seater,15-20 kmpl,5,"Hill Hold Control, Rear AC Vents, Alloy Wheels",city,https://example.com/tatamodel23,9588972527,18L
+Toyota Model 24,Toyota,Sedan,Clutchless Manual,Petrol,7 Seater,10-15 kmpl,2,"Ventilated Seats, Central Locking, Wireless Charging",family,https://example.com/toyotamodel24,9659429417,19L
+Kia Model 25,Kia,Sedan,Manual,Hybrid,7 Seater,Upto 10 kmpl,2,"Sunroof, Alloy Wheels, Wireless Charging",city,https://example.com/kiamodel25,9746129126,23L
+Mahindra Model 26,Mahindra,Hatchback,Automatic,Petrol,7 Seater,Above 20 kmpl,6,"Alloy Wheels, Sunroof, Cruise Control",off-road,https://example.com/mahindramodel26,9289377146,10L
+Kia Model 27,Kia,SUV,Clutchless Manual,CNG,7 Seater,Above 20 kmpl,7,"Alloy Wheels, Reverse Camera, Touchscreen Display",city,https://example.com/kiamodel27,9618716345,23L
+MG Model 28,MG,Hatchback,Clutchless Manual,Petrol,8 Seater,10-15 kmpl,8,"Ventilated Seats, Reverse Camera, Hill Hold Control",highway,https://example.com/mgmodel28,9558242878,8L
+Tata Model 29,Tata,SUV,Clutchless Manual,Petrol,5 Seater,Upto 10 kmpl,5,"Ventilated Seats, Cruise Control, Music System",off-road,https://example.com/tatamodel29,9391397022,29L
+Maruti Model 30,Maruti,MUV,Manual,Petrol,5 Seater,Above 20 kmpl,2,"Alloy Wheels, Hill Hold Control, Reverse Camera",city,https://example.com/marutimodel30,9133528788,28L
+Hyundai Model 31,Hyundai,Hatchback,Automatic,Diesel,7 Seater,10-15 kmpl,5,"Music System, Cruise Control, Ventilated Seats",family,https://example.com/hyundaimodel31,9307821456,28L
+Mahindra Model 32,Mahindra,Sedan,Automatic,Petrol,8 Seater,Above 20 kmpl,8,"Ventilated Seats, Rear AC Vents, Cruise Control",city,https://example.com/mahindramodel32,9052410762,13L
+Tata Model 33,Tata,SUV,Automatic,Hybrid,7 Seater,10-15 kmpl,8,"Wireless Charging, Music System, Reverse Camera",city,https://example.com/tatamodel33,9445511059,14L
+Mahindra Model 34,Mahindra,Hatchback,Clutchless Manual,Diesel,5 Seater,10-15 kmpl,6,"Touchscreen Display, Sunroof, Wireless Charging",highway,https://example.com/mahindramodel34,9824081709,26L
+Toyota Model 35,Toyota,SUV,Clutchless Manual,CNG,6 Seater,Above 20 kmpl,4,"Reverse Camera, Ventilated Seats, Cruise Control",highway,https://example.com/toyotamodel35,9051896841,28L
+MG Model 36,MG,MUV,Clutchless Manual,CNG,5 Seater,Upto 10 kmpl,8,"Wireless Charging, Ventilated Seats, Alloy Wheels",highway,https://example.com/mgmodel36,9595647137,14L
+Tata Model 37,Tata,Sedan,Manual,Hybrid,6 Seater,Upto 10 kmpl,6,"Cruise Control, Rear AC Vents, Reverse Camera",family,https://example.com/tatamodel37,9717791008,12L
+Maruti Model 38,Maruti,SUV,Clutchless Manual,Petrol,6 Seater,15-20 kmpl,7,"Sunroof, Rear AC Vents, Alloy Wheels",family,https://example.com/marutimodel38,9658958938,6L
+MG Model 39,MG,Hatchback,Manual,Diesel,7 Seater,Upto 10 kmpl,8,"Touchscreen Display, Hill Hold Control, Music System",city,https://example.com/mgmodel39,9338766725,25L
+Honda Model 40,Honda,SUV,Clutchless Manual,CNG,6 Seater,Upto 10 kmpl,7,"Touchscreen Display, Alloy Wheels, Sunroof",highway,https://example.com/hondamodel40,9141068503,6L
+MG Model 41,MG,Sedan,Clutchless Manual,Hybrid,8 Seater,15-20 kmpl,2,"Hill Hold Control, Touchscreen Display, Reverse Camera",highway,https://example.com/mgmodel41,9894519409,28L
+Toyota Model 42,Toyota,Hatchback,Automatic,Petrol,8 Seater,10-15 kmpl,6,"Hill Hold Control, Reverse Camera, Wireless Charging",off-road,https://example.com/toyotamodel42,9081628928,30L
+Toyota Model 43,Toyota,Hatchback,Automatic,CNG,5 Seater,15-20 kmpl,2,"Wireless Charging, Touchscreen Display, Reverse Camera",off-road,https://example.com/toyotamodel43,9687170832,29L
+Kia Model 44,Kia,Sedan,Manual,Diesel,6 Seater,Above 20 kmpl,8,"Rear AC Vents, Reverse Camera, Sunroof",family,https://example.com/kiamodel44,9228596594,27L
+Mahindra Model 45,Mahindra,SUV,Automatic,Electric,7 Seater,15-20 kmpl,8,"Alloy Wheels, Music System, Wireless Charging",off-road,https://example.com/mahindramodel45,9551623754,15L
+MG Model 46,MG,Sedan,Automatic,Petrol,5 Seater,Above 20 kmpl,4,"Wireless Charging, Hill Hold Control, Ventilated Seats",off-road,https://example.com/mgmodel46,9785820249,17L
+Hyundai Model 47,Hyundai,Hatchback,Manual,Petrol,8 Seater,Above 20 kmpl,8,"Wireless Charging, Cruise Control, Rear AC Vents",off-road,https://example.com/hyundaimodel47,9791347241,24L
+Mahindra Model 48,Mahindra,Sedan,Automatic,Hybrid,5 Seater,10-15 kmpl,5,"Alloy Wheels, Central Locking, Music System",city,https://example.com/mahindramodel48,9889512804,23L
+Maruti Model 49,Maruti,Sedan,Automatic,Diesel,5 Seater,Upto 10 kmpl,2,"Music System, Ventilated Seats, Central Locking",family,https://example.com/marutimodel49,9521469745,23L
+MG Model 50,MG,Hatchback,Automatic,CNG,6 Seater,Upto 10 kmpl,5,"Ventilated Seats, Alloy Wheels, Sunroof",city,https://example.com/mgmodel50,9641111858,18L
+Maruti Model 51,Maruti,Hatchback,Manual,Hybrid,8 Seater,15-20 kmpl,2,"Alloy Wheels, Cruise Control, Wireless Charging",city,https://example.com/marutimodel51,9520053308,8L
+MG Model 52,MG,Sedan,Clutchless Manual,Electric,5 Seater,10-15 kmpl,8,"Rear AC Vents, Ventilated Seats, Music System",city,https://example.com/mgmodel52,9179284990,17L
+Mahindra Model 53,Mahindra,Sedan,Automatic,Petrol,6 Seater,Above 20 kmpl,7,"Music System, Central Locking, Wireless Charging",city,https://example.com/mahindramodel53,9876326549,21L
+Honda Model 54,Honda,Sedan,Clutchless Manual,Petrol,5 Seater,Upto 10 kmpl,8,"Hill Hold Control, Music System, Rear AC Vents",off-road,https://example.com/hondamodel54,9950192622,12L
+Tata Model 55,Tata,Hatchback,Clutchless Manual,Diesel,5 Seater,15-20 kmpl,2,"Sunroof, Reverse Camera, Central Locking",off-road,https://example.com/tatamodel55,9539802102,16L
+Tata Model 56,Tata,Sedan,Automatic,Electric,8 Seater,10-15 kmpl,6,"Central Locking, Alloy Wheels, Music System",highway,https://example.com/tatamodel56,9790842662,11L
+Hyundai Model 57,Hyundai,MUV,Manual,Hybrid,7 Seater,15-20 kmpl,2,"Ventilated Seats, Sunroof, Rear AC Vents",city,https://example.com/hyundaimodel57,9053875174,30L
+Honda Model 58,Honda,SUV,Automatic,CNG,5 Seater,15-20 kmpl,8,"Reverse Camera, Central Locking, Sunroof",off-road,https://example.com/hondamodel58,9324628493,26L
+Tata Model 59,Tata,Hatchback,Automatic,Hybrid,5 Seater,Above 20 kmpl,4,"Ventilated Seats, Rear AC Vents, Touchscreen Display",family,https://example.com/tatamodel59,9056199841,25L
+Toyota Model 60,Toyota,Hatchback,Automatic,CNG,6 Seater,10-15 kmpl,7,"Music System, Touchscreen Display, Wireless Charging",highway,https://example.com/toyotamodel60,9774860052,13L
+Tata Model 61,Tata,SUV,Clutchless Manual,Petrol,6 Seater,Upto 10 kmpl,7,"Wireless Charging, Music System, Alloy Wheels",off-road,https://example.com/tatamodel61,9710268227,11L
+Kia Model 62,Kia,SUV,Clutchless Manual,Diesel,5 Seater,15-20 kmpl,4,"Central Locking, Music System, Reverse Camera",city,https://example.com/kiamodel62,9757975922,6L
+MG Model 63,MG,Hatchback,Manual,Petrol,8 Seater,Above 20 kmpl,2,"Music System, Hill Hold Control, Reverse Camera",highway,https://example.com/mgmodel63,9412686083,15L
+Kia Model 64,Kia,SUV,Clutchless Manual,CNG,5 Seater,Above 20 kmpl,7,"Wireless Charging, Alloy Wheels, Central Locking",off-road,https://example.com/kiamodel64,9032057990,13L
+MG Model 65,MG,SUV,Manual,Electric,6 Seater,Above 20 kmpl,6,"Central Locking, Ventilated Seats, Cruise Control",city,https://example.com/mgmodel65,9526231652,22L
+Toyota Model 66,Toyota,SUV,Clutchless Manual,Hybrid,8 Seater,Above 20 kmpl,7,"Ventilated Seats, Wireless Charging, Rear AC Vents",city,https://example.com/toyotamodel66,9801646890,11L
+Honda Model 67,Honda,Sedan,Automatic,CNG,5 Seater,15-20 kmpl,2,"Wireless Charging, Cruise Control, Alloy Wheels",family,https://example.com/hondamodel67,9412207883,5L
+Hyundai Model 68,Hyundai,SUV,Manual,CNG,5 Seater,15-20 kmpl,7,"Reverse Camera, Wireless Charging, Ventilated Seats",city,https://example.com/hyundaimodel68,9713031291,22L
+Honda Model 69,Honda,SUV,Automatic,CNG,7 Seater,Upto 10 kmpl,4,"Sunroof, Alloy Wheels, Cruise Control",family,https://example.com/hondamodel69,9946691287,16L
+Toyota Model 70,Toyota,SUV,Manual,Petrol,6 Seater,Above 20 kmpl,7,"Wireless Charging, Alloy Wheels, Reverse Camera",highway,https://example.com/toyotamodel70,9991765553,23L
+MG Model 71,MG,Sedan,Manual,Electric,5 Seater,10-15 kmpl,8,"Central Locking, Ventilated Seats, Sunroof",city,https://example.com/mgmodel71,9728940511,7L
+Maruti Model 72,Maruti,Hatchback,Clutchless Manual,Diesel,6 Seater,Above 20 kmpl,2,"Wireless Charging, Music System, Alloy Wheels",city,https://example.com/marutimodel72,9766844612,18L
+Hyundai Model 73,Hyundai,Hatchback,Manual,Electric,8 Seater,Above 20 kmpl,2,"Rear AC Vents, Cruise Control, Wireless Charging",highway,https://example.com/hyundaimodel73,9014846850,9L
+Maruti Model 74,Maruti,SUV,Automatic,Diesel,5 Seater,10-15 kmpl,6,"Ventilated Seats, Rear AC Vents, Reverse Camera",family,https://example.com/marutimodel74,9792329590,20L
+Kia Model 75,Kia,Hatchback,Manual,Diesel,6 Seater,Upto 10 kmpl,2,"Central Locking, Music System, Reverse Camera",off-road,https://example.com/kiamodel75,9579431220,12L
+Honda Model 76,Honda,MUV,Automatic,Petrol,8 Seater,15-20 kmpl,6,"Central Locking, Touchscreen Display, Sunroof",highway,https://example.com/hondamodel76,9769483171,23L
+Hyundai Model 77,Hyundai,Sedan,Automatic,Petrol,8 Seater,Above 20 kmpl,4,"Alloy Wheels, Central Locking, Cruise Control",family,https://example.com/hyundaimodel77,9575381124,10L
+Mahindra Model 78,Mahindra,MUV,Automatic,Diesel,8 Seater,15-20 kmpl,7,"Sunroof, Ventilated Seats, Reverse Camera",city,https://example.com/mahindramodel78,9885393748,17L
+Toyota Model 79,Toyota,MUV,Clutchless Manual,CNG,7 Seater,Upto 10 kmpl,5,"Hill Hold Control, Ventilated Seats, Central Locking",highway,https://example.com/toyotamodel79,9385379157,29L
+Tata Model 80,Tata,SUV,Automatic,Diesel,8 Seater,10-15 kmpl,8,"Rear AC Vents, Wireless Charging, Ventilated Seats",off-road,https://example.com/tatamodel80,9118820990,26L
+Toyota Model 81,Toyota,MUV,Manual,CNG,5 Seater,Above 20 kmpl,6,"Alloy Wheels, Reverse Camera, Rear AC Vents",family,https://example.com/toyotamodel81,9364381435,24L
+Kia Model 82,Kia,Hatchback,Automatic,CNG,5 Seater,Upto 10 kmpl,6,"Alloy Wheels, Rear AC Vents, Cruise Control",family,https://example.com/kiamodel82,9258435640,22L
+Kia Model 83,Kia,Hatchback,Clutchless Manual,Electric,7 Seater,15-20 kmpl,6,"Music System, Central Locking, Hill Hold Control",off-road,https://example.com/kiamodel83,9281364277,29L
+Kia Model 84,Kia,MUV,Clutchless Manual,Diesel,8 Seater,Above 20 kmpl,8,"Hill Hold Control, Reverse Camera, Sunroof",family,https://example.com/kiamodel84,9400945294,26L
+Tata Model 85,Tata,SUV,Manual,Petrol,8 Seater,Upto 10 kmpl,6,"Touchscreen Display, Central Locking, Wireless Charging",city,https://example.com/tatamodel85,9840891959,7L
+Honda Model 86,Honda,Hatchback,Clutchless Manual,Diesel,8 Seater,15-20 kmpl,2,"Wireless Charging, Hill Hold Control, Touchscreen Display",city,https://example.com/hondamodel86,9939931015,11L
+Honda Model 87,Honda,Hatchback,Clutchless Manual,Diesel,5 Seater,10-15 kmpl,6,"Reverse Camera, Alloy Wheels, Sunroof",off-road,https://example.com/hondamodel87,9618038220,28L
+MG Model 88,MG,SUV,Manual,Diesel,6 Seater,15-20 kmpl,4,"Cruise Control, Music System, Central Locking",family,https://example.com/mgmodel88,9561295273,24L
+Honda Model 89,Honda,MUV,Clutchless Manual,Diesel,6 Seater,Above 20 kmpl,2,"Sunroof, Hill Hold Control, Alloy Wheels",highway,https://example.com/hondamodel89,9821112432,24L
+Hyundai Model 90,Hyundai,Hatchback,Automatic,CNG,6 Seater,10-15 kmpl,4,"Central Locking, Alloy Wheels, Hill Hold Control",family,https://example.com/hyundaimodel90,9506783684,23L
+Hyundai Model 91,Hyundai,SUV,Manual,Electric,6 Seater,Upto 10 kmpl,8,"Cruise Control, Hill Hold Control, Central Locking",off-road,https://example.com/hyundaimodel91,9873931220,30L
+Mahindra Model 92,Mahindra,Hatchback,Automatic,Petrol,6 Seater,10-15 kmpl,6,"Central Locking, Touchscreen Display, Alloy Wheels",family,https://example.com/mahindramodel92,9338740888,25L
+MG Model 93,MG,Hatchback,Manual,Diesel,8 Seater,Above 20 kmpl,4,"Rear AC Vents, Touchscreen Display, Wireless Charging",off-road,https://example.com/mgmodel93,9833749303,15L
+Tata Model 94,Tata,Hatchback,Clutchless Manual,Hybrid,7 Seater,10-15 kmpl,4,"Cruise Control, Ventilated Seats, Alloy Wheels",family,https://example.com/tatamodel94,9590042609,18L
+Maruti Model 95,Maruti,Sedan,Manual,Electric,5 Seater,Above 20 kmpl,8,"Reverse Camera, Alloy Wheels, Sunroof",city,https://example.com/marutimodel95,9985424860,20L
+Hyundai Model 96,Hyundai,Sedan,Clutchless Manual,Electric,6 Seater,15-20 kmpl,8,"Central Locking, Sunroof, Ventilated Seats",city,https://example.com/hyundaimodel96,9704849718,23L
+MG Model 97,MG,Sedan,Clutchless Manual,Diesel,7 Seater,Upto 10 kmpl,7,"Ventilated Seats, Reverse Camera, Cruise Control",highway,https://example.com/mgmodel97,9404473329,7L
+Tata Model 98,Tata,SUV,Manual,Hybrid,8 Seater,10-15 kmpl,2,"Hill Hold Control, Reverse Camera, Music System",city,https://example.com/tatamodel98,9424351535,6L
+Tata Model 99,Tata,Sedan,Manual,Electric,7 Seater,Above 20 kmpl,8,"Central Locking, Music System, Rear AC Vents",off-road,https://example.com/tatamodel99,9609154989,24L
+Maruti Model 100,Maruti,MUV,Manual,Diesel,6 Seater,Upto 10 kmpl,7,"Music System, Touchscreen Display, Ventilated Seats",family,https://example.com/marutimodel100,9353281219,7L

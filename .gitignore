@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Vector DB / embeddings files
+*.faiss
+
+# JSON files (⚠️ careful — this ignores ALL json)
+*.json
+
+vector_store/
+chunks/
