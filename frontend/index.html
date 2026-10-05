@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #0e0e0f;
+      --surface: #161618;
+      --border: #2a2a2e;
+      --accent: #d4ff58;
+      --accent-dim: rgba(212,255,88,0.12);
+      --text: #e8e8e2;
+      --muted: #6b6b72;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ─── HEADER ─── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 28px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+
+    .brand {
+      font-family: 'Instrument Serif', serif;
+      font-size: 1.35rem;
+      font-style: italic;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+
+    .status-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%,100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ─── MESSAGES ─── */
+    #messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 32px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .msg-row {
+      display: flex;
+      padding: 14px 28px;
+      gap: 14px;
+      animation: fadeIn 0.25s ease;
+      transition: background 0.15s;
+    }
+
+    .msg-row:hover { background: rgba(255,255,255,0.02); }
+
+    .msg-row.user { flex-direction: row-reverse; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .avatar {
+      width: 30px; height: 30px;
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.65rem;
+      font-weight: 500;
+      flex-shrink: 0;
+      letter-spacing: 0.05em;
+      margin-top: 2px;
+    }
+
+    .avatar.bot  { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(212,255,88,0.25); }
+    .avatar.user { background: #1e1e22; color: var(--muted); border: 1px solid var(--border); }
+
+    .bubble {
+      max-width: 680px;
+      font-size: 0.875rem;
+      line-height: 1.7;
+      color: var(--text);
+    }
+
+    .msg-row.user .bubble {
+      text-align: right;
+      color: #c8c8c2;
+    }
+
+    /* ─── TYPING INDICATOR ─── */
+    .typing-dots {
+      display: flex; gap: 5px; align-items: center; padding: 4px 0;
+    }
+    .typing-dots span {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: bounce 1.2s infinite ease-in-out;
+    }
+    .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce {
+      0%,80%,100% { transform: translateY(0); opacity: 0.4; }
+      40%          { transform: translateY(-6px); opacity: 1; }
+    }
+
+    /* ─── INPUT AREA ─── */
+    footer {
+      padding: 20px 28px;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+
+    .input-wrap {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      transition: border-color 0.2s;
+    }
+    .input-wrap:focus-within { border-color: rgba(212,255,88,0.4); }
+
+    #userInput {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.875rem;
+      resize: none;
+      min-height: 22px;
+      max-height: 160px;
+      line-height: 1.6;
+    }
+
+    #userInput::placeholder { color: var(--muted); }
+
+    #sendBtn {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      border: none;
+      background: var(--accent);
+      color: #0e0e0f;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      transition: opacity 0.15s, transform 0.1s;
+      font-size: 0.8rem;
+    }
+    #sendBtn:hover:not(:disabled) { opacity: 0.85; }
+    #sendBtn:active:not(:disabled) { transform: scale(0.93); }
+    #sendBtn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .hint {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 8px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+    /* ─── EMPTY STATE ─── */
+    #emptyState {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: var(--muted);
+    }
+    #emptyState .big { font-family: 'Instrument Serif', serif; font-style: italic; font-size: 2rem; color: var(--text); opacity: 0.15; }
+    #emptyState p { font-size: 0.8rem; letter-spacing: 0.05em; }
+
+    /* ─── ERROR TOAST ─── */
+    #errorToast {
+      position: fixed;
+      bottom: 100px; left: 50%; transform: translateX(-50%);
+      background: #2a1a1a;
+      border: 1px solid #5a2a2a;
+      color: #ff8080;
+      font-size: 0.78rem;
+      padding: 10px 20px;
+      border-radius: 8px;
+      display: none;
+      z-index: 99;
+      animation: fadeIn 0.2s ease;
+    }
+
+    /* ─── BADGES ─── */
+    .badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      border: 1px solid var(--accent);
+      box-shadow: 0 0 6px rgba(212,255,88,0.6);
+      background: #111;
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .badge:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .badge.active {
+      background: var(--accent);
+      color: #000;
+    }
+
+    /* ─── BUDGET RANGE BADGES ─── */
+    .budget-badge-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .budget-badge {
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      border: 1px solid var(--accent);
+      box-shadow: 0 0 6px rgba(212,255,88,0.6);
+      background: #111;
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .budget-badge:hover { color: var(--accent); }
+    .budget-badge.selected { background: var(--accent); color: #000; }
+    .budget-edit-hint {
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 5px;
+      display: none;
+    }
+
+    /* ─── ENTRY BUTTONS (inline inside bot bubble) ─── */
+    .entry-btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 14px;
+      max-width: 480px;
+    }
+
+    .entry-btn {
+      display: block;
+      width: 100%;
+      background: #1a1a1c;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 13px 18px;
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.82rem;
+      cursor: pointer;
+      text-align: left;
+      transition: border-color 0.2s, background 0.2s, color 0.2s;
+      line-height: 1.4;
+    }
+
+    .entry-btn:hover {
+      border-color: rgba(212,255,88,0.55);
+      background: rgba(212,255,88,0.05);
+      color: var(--accent);
+    }
+
+    .entry-btn:active {
+      background: rgba(212,255,88,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <span class="brand">assistant.</span>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <span style="font-size:0.72rem;color:var(--muted);letter-spacing:0.06em;" id="statusLabel">ONLINE</span>
+      <div class="status-dot" id="statusDot"></div>
+    </div>
+  </header>
+
+  <!-- MESSAGES -->
+  <div id="messages">
+    <div id="emptyState">
+      <div class="big">Hello.</div>
+      <p>Start a conversation below.</p>
+    </div>
+  </div>
+
+  <!-- ERROR TOAST -->
+  <div id="errorToast"></div>
+
+  <!-- INPUT -->
+  <footer>
+    <div class="input-wrap">
+      <textarea id="userInput" rows="1" placeholder="Type a message…"></textarea>
+      <button id="sendBtn" title="Send">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+    <p class="hint">⏎ to send &nbsp;·&nbsp; Shift+⏎ for new line</p>
+  </footer>
+
+<script>
+  const CONFIG = {
+    API_BASE_URL: "http://localhost:5001",
+    CHAT_ENDPOINT: "/chat",
+    HEADERS: { "Content-Type": "application/json" },
+    TIMEOUT_MS: 60000,
+    STREAMING: false,
+  };
+
+  // ── Entry mode context injected as a system hint into the first message ──
+  // The backend's LLM already handles all attribute extraction — we just
+  // prepend a soft instruction to guide the opening question style.
+  const ENTRY_PROMPTS = {
+    find:   "I want to find a car. Please guide me step by step — ask me one thing at a time starting from budget.",
+    budget: "I have a budget in mind. Please ask me for my budget first, then collect other details.",
+    prefs:  "I know my preferences. I'll share everything at once — extract what you can and only ask about what's missing.",
+  };
+
+  const ENTRY_LABELS = {
+    find:   "Find a car for me",
+    budget: "I have a budget in mind",
+    prefs:  "I know my preferences",
+  };
+
+  function buildPayload(userMessage, sessionId) {
+    return { message: userMessage, session_id: sessionId };
+  }
+
+  async function sendMessage(userMessage, sessionId) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), CONFIG.TIMEOUT_MS);
+
+    try {
+      const response = await fetch(CONFIG.API_BASE_URL + "/chat", {
+        method: "POST",
+        headers: CONFIG.HEADERS,
+        body: JSON.stringify(buildPayload(userMessage, sessionId)),
+        signal: controller.signal,
+      });
+
+      clearTimeout(timer);
+
+      if (!response.ok) {
+        throw new Error(await response.text());
+      }
+
+      return await response.json();
+
+    } catch (err) {
+      clearTimeout(timer);
+      if (err.name === "AbortError") throw new Error("Request timed out.");
+      throw err;
+    }
+  }
+
+  const messagesEl = document.getElementById("messages");
+  const inputEl    = document.getElementById("userInput");
+  const sendBtn    = document.getElementById("sendBtn");
+  const emptyState = document.getElementById("emptyState");
+  const errorToast = document.getElementById("errorToast");
+
+  const sessionId = "session-" + Math.random().toString(36).slice(2, 12);
+  let history   = [];
+  let isLoading = false;
+  let entryUsed = false;
+
+  // Fade-collapse the inline entry button group inside the first bot bubble
+  function dismissEntryButtons() {
+    if (entryUsed) return;
+    entryUsed = true;
+    const grp = document.getElementById("entryBtnGroup");
+    if (!grp) return;
+    grp.style.transition  = "opacity 0.2s ease, max-height 0.25s ease";
+    grp.style.overflow    = "hidden";
+    grp.style.opacity     = "0";
+    grp.style.maxHeight   = "0";
+    setTimeout(() => grp.remove(), 280);
+  }
+
+  // Called by inline onclick on the entry buttons rendered in the first bubble
+  async function handleEntryButton(mode) {
+    if (isLoading) return;
+    dismissEntryButtons();
+
+    const displayLabel = ENTRY_LABELS[mode];
+    const backendMsg   = ENTRY_PROMPTS[mode];
+
+    appendMessage("user", displayLabel, false, false, false);
+    history.push({ role: "user", content: backendMsg });
+
+    isLoading = true;
+    sendBtn.disabled = true;
+    showTyping();
+
+    try {
+      const data  = await sendMessage(backendMsg, sessionId);
+      const reply = data.reply || data.response || data.output || data.answer || "No response received.";
+      hideTyping();
+      appendMessage(
+        "assistant", reply,
+        data.show_fuel_buttons         === true,
+        data.show_transmission_buttons === true,
+        data.show_budget_buttons       === true
+      );
+      history.push({ role: "assistant", content: reply });
+    } catch (err) {
+      hideTyping();
+      showError(err.message);
+      history.pop();
+    } finally {
+      isLoading        = false;
+      sendBtn.disabled = false;
+      inputEl.focus();
+    }
+  }
+
+  // appendMessage — button visibility FULLY controlled by backend flags.
+  // showEntryBtns is true only for the very first greeting message.
+  function appendMessage(role, text, showFuelBtns, showTransBtns, showBudgetBtns, showEntryBtns) {
+    if (emptyState && emptyState.parentNode) emptyState.remove();
+
+    const row = document.createElement("div");
+    row.className = `msg-row ${role}`;
+
+    const avatar = document.createElement("div");
+    avatar.className = `avatar ${role === "user" ? "user" : "bot"}`;
+    avatar.textContent = role === "user" ? "YOU" : "AI";
+
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    bubble.innerText = text;
+
+    if (role === "assistant") {
+      if (showEntryBtns) {
+        bubble.appendChild(createEntryButtonGroup());
+      } else if (showFuelBtns) {
+        bubble.appendChild(createBadgeGroup(["Petrol", "Diesel", "Electric", "Hybrid", "CNG"]));
+      } else if (showTransBtns) {
+        bubble.appendChild(createBadgeGroup(["Automatic", "Manual"]));
+      } else if (showBudgetBtns) {
+        bubble.appendChild(createBudgetBadgeGroup());
+      }
+    }
+
+    row.appendChild(avatar);
+    row.appendChild(bubble);
+    messagesEl.appendChild(row);
+    scrollToBottom();
+  }
+
+  // Build the three entry-flow buttons rendered inside the first bot message
+  function createEntryButtonGroup() {
+    const grp = document.createElement("div");
+    grp.className = "entry-btn-group";
+    grp.id = "entryBtnGroup";
+
+    const items = [
+      { mode: "find",   label: "Find a car for me" },
+      { mode: "budget", label: "I have a budget in mind 💰" },
+      { mode: "prefs",  label: "I know my preferences ⚙️" },
+    ];
+
+    items.forEach(item => {
+      const btn = document.createElement("button");
+      btn.className = "entry-btn";
+      btn.textContent = item.label;
+      btn.onclick = () => handleEntryButton(item.mode);
+      grp.appendChild(btn);
+    });
+
+    return grp;
+  }
+
+  // Budget range badges: clicking pre-fills input, user can edit before sending
+  function createBudgetBadgeGroup() {
+    const ranges = [
+      { label: "Under 5L",  value: "5 lakh"  },
+      { label: "5 – 10L",   value: "10 lakh" },
+      { label: "10 – 20L",  value: "20 lakh" },
+      { label: "20 – 30L",  value: "30 lakh" },
+      { label: "30 – 35L",  value: "35 lakh" },
+      { label: "35L+",      value: "35 lakh" },
+    ];
+    const wrapper   = document.createElement("div");
+    const container = document.createElement("div");
+    container.className = "budget-badge-container";
+    const hint = document.createElement("div");
+    hint.className = "budget-edit-hint";
+    hint.textContent = "✏️ Edit in the box below or press ⏎ to confirm";
+
+    ranges.forEach(r => {
+      const btn = document.createElement("div");
+      btn.className = "budget-badge";
+      btn.innerText = r.label;
+      btn.onclick = () => {
+        container.querySelectorAll(".budget-badge").forEach(b => b.classList.remove("selected"));
+        btn.classList.add("selected");
+        inputEl.value = r.value;
+        autoResize();
+        inputEl.focus();
+        const len = inputEl.value.length;
+        inputEl.setSelectionRange(len, len);
+        hint.style.display = "block";
+      };
+      container.appendChild(btn);
+    });
+    wrapper.appendChild(container);
+    wrapper.appendChild(hint);
+    return wrapper;
+  }
+
+  function createBadgeGroup(options) {
+    const container = document.createElement("div");
+    container.className = "badge-container";
+    options.forEach(opt => {
+      const btn = document.createElement("div");
+      btn.className = "badge";
+      btn.innerText = opt;
+      btn.onclick = () => sendQuickReply(opt);
+      container.appendChild(btn);
+    });
+    return container;
+  }
+
+  async function sendQuickReply(value) {
+    if (isLoading) return;
+
+    // Any interaction dismisses the entry buttons
+    dismissEntryButtons();
+
+    isLoading = true;
+    sendBtn.disabled = true;
+
+    appendMessage("user", value, false, false, false);
+    history.push({ role: "user", content: value });
+
+    showTyping();
+
+    try {
+      const data  = await sendMessage(value, sessionId);
+      const reply = data.reply || data.response || data.output || data.answer || "No response received.";
+      hideTyping();
+      appendMessage(
+        "assistant", reply,
+        data.show_fuel_buttons         === true,
+        data.show_transmission_buttons === true,
+        data.show_budget_buttons       === true
+      );
+      history.push({ role: "assistant", content: reply });
+    } catch (err) {
+      hideTyping();
+      showError(err.message);
+    } finally {
+      isLoading = false;
+      sendBtn.disabled = false;
+    }
+  }
+
+  function showTyping() {
+    const row = document.createElement("div");
+    row.className = "msg-row bot";
+    row.id = "typingRow";
+
+    const avatar = document.createElement("div");
+    avatar.className = "avatar bot";
+    avatar.textContent = "AI";
+
+    const dots = document.createElement("div");
+    dots.className = "typing-dots";
+    dots.innerHTML = "<span></span><span></span><span></span>";
+
+    row.appendChild(avatar);
+    row.appendChild(dots);
+    messagesEl.appendChild(row);
+    scrollToBottom();
+  }
+
+  function hideTyping() {
+    document.getElementById("typingRow")?.remove();
+  }
+
+  function showError(msg) {
+    errorToast.textContent = `⚠ ${msg}`;
+    errorToast.style.display = "block";
+    setTimeout(() => { errorToast.style.display = "none"; }, 4000);
+  }
+
+  function scrollToBottom() {
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  async function handleSubmit() {
+    const text = inputEl.value.trim();
+    if (!text || isLoading) return;
+
+    // Any manual typing also dismisses the entry buttons
+    dismissEntryButtons();
+
+    isLoading = true;
+    sendBtn.disabled = true;
+    inputEl.value = "";
+    autoResize();
+
+    appendMessage("user", text, false, false, false);
+    history.push({ role: "user", content: text });
+
+    showTyping();
+
+    try {
+      const data  = await sendMessage(text, sessionId);
+      const reply = data.reply || data.response || data.output || data.answer || "No response received.";
+      hideTyping();
+      appendMessage(
+        "assistant", reply,
+        data.show_fuel_buttons         === true,
+        data.show_transmission_buttons === true,
+        data.show_budget_buttons       === true
+      );
+      history.push({ role: "assistant", content: reply });
+    } catch (err) {
+      hideTyping();
+      showError(err.message);
+      history.pop();
+    } finally {
+      isLoading = false;
+      sendBtn.disabled = false;
+      inputEl.focus();
+    }
+  }
+
+  function autoResize() {
+    inputEl.style.height = "auto";
+    inputEl.style.height = Math.min(inputEl.scrollHeight, 160) + "px";
+  }
+
+  sendBtn.addEventListener("click", handleSubmit);
+
+  inputEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit();
+    }
+  });
+
+  inputEl.addEventListener("input", autoResize);
+
+  async function checkBackend() {
+    try {
+      const r = await fetch(`${CONFIG.API_BASE_URL}/health`);
+      if (r.ok) {
+        statusLabel.textContent = "ONLINE";
+        statusDot.style.background = "var(--accent)";
+      } else {
+        statusLabel.textContent = "BACKEND ERROR";
+        statusDot.style.background = "#ff8080";
+      }
+    } catch {
+      statusLabel.textContent = "OFFLINE";
+      statusDot.style.background = "#ff8080";
+    }
+  }
+
+  checkBackend();
+
+  appendMessage(
+    "assistant",
+    "Hi! I'll help you find the perfect car 🚗 How would you like to start?",
+    false, false, false, true   // showEntryBtns = true
+  );
+
+  inputEl.focus();
+</script>
+</body>
+</html>
